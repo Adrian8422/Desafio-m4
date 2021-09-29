@@ -6,7 +6,7 @@ body {
 }
 .welcome {
   height: 681px;
-  background-image: url(/medias/welcome/3d-back.jpg);
+  background-image: url(../medias/welcome/3d-back.jpg);
   background-position: 4%;
   background-size: cover;
   padding-top: 80px;
