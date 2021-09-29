@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 29px;
+  color: whitesmoke;
+  background-color: #131212;
+}
+@media (min-width: 960px) {
+  .portfolio {
+    padding: inherit;
+
+    max-width: 1650px;
+    margin: 0 auto;
+  }
+}
+.portfolio__presentation {
+  margin-top: 173px;
+}
+
+@media (min-width: 960px) {
+  .portfolio__presentation {
+    height: 654px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(
+      107.17deg,
+      #958c40 29.35%,
+      rgba(156, 0, 210, 0.8) 78.73%
+    );
+    margin-top: 0;
+  }
+}
+
+.p__present-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+@media (min-width: 960px) {
+  .p__present-title {
+    margin-left: 100px;
+  }
+}
+.portfolio__content {
+  font-family: "Poppins", sans-serif;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+@media (min-width: 960px) {
+  .portfolio__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+}
+
+.portfolio-card {
+  max-width: 269px;
+  margin: 0 auto;
+  margin-top: 67px;
+  box-shadow: rgb(0 0 0 / 15%) 9px 8px 7px;
+  margin-bottom: 67px;
+}
+
+.portfolio-card__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.portfolio-card__content {
+  padding: 3vh 3vh;
+}
+
+.portfolio-card__title {
+  font-size: 24px;
+  margin: 0%;
+}
+.portfolio-card__text {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 10px;
+}
+.portfolio-card__link {
+  margin: 9px;
+  display: flex;
+  flex-direction: column-reverse;
+  text-decoration: none;
+  color: #b075fd80;
+}
+
+.portfolio-card__link:hover {
+  border-radius: 5px;
+  color: rgba(230, 195, 240, 0.952);
+  transition: all 550ms ease;
+}

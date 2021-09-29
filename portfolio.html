@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/portfolio.css" />
+
+    <!-- FOOTER  -->
+    <link rel="stylesheet" href="./components/footer/index.css" />
+    <script defer src="./components/footer/index.js"></script>
+
+    <!-- HEADER -->
+    <link rel="stylesheet" href="./components/header/index.css" />
+    <script defer src="./components/header/index.js"></script>
+
+    <link rel="stylesheet" href="./styles/servicios-style.css" />
+    <script defer src="./scripts/portfolio.js"></script>
+  </head>
+  <body>
+    <div class="header-cont"></div>
+    <section class="portfolio">
+      <div class="portfolio__presentation">
+        <h2 class="p__present-title">Portfolio</h2>
+      </div>
+
+      <div class="portfolio__content"></div>
+    </section>
+    <template id="portfolio-card-template">
+      <div class="portfolio-card">
+        <img
+          class="portfolio-card__img"
+          src="./medias/portfolio/services-img.svg"
+          alt=""
+        />
+        <div class="portfolio-card__content">
+          <h4 class="portfolio-card__title">Trabajo N?9857</h4>
+          <p class="portfolio-card__text">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </p>
+          <a class="portfolio-card__link" href="">Ver más</a>
+        </div>
+      </div>
+    </template>
+    <div class="footer-cont"></div>
+  </body>
+</html>

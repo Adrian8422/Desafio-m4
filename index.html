@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron:wght@700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- /SCRIPT HEADER / -->
+
+    <link rel="stylesheet" href="./components/header/index.css" />
+    <script defer src="./components/header/index.js"></script>
+
+    <!-- /CONTACT FORM/ -->
+    <link rel="stylesheet" href="./components/form/index.css" />
+    <script defer src="./components/form/index.js"></script>
+
+    <!-- SCRIPT FOOTER -->
+    <link rel="stylesheet" href="./components/footer/index.css" />
+    <script defer src="./components/footer/index.js"></script>
+
+    <script defer src="./scripts/index.js"></script>
+
+    <link rel="stylesheet" href="./styles/style-index.css" />
+  </head>
+  <body>
+    <div class="header-cont"></div>
+
+    <section class="welcome">
+      <div class="welcome-content"></div>
+    </section>
+    <template id="welcome-template">
+      <div class="welcome__container-titles">
+        <h1 class="welcome__title-one">Hola</h1>
+        <h2 class="welcome__title-two">Soy Adri</h2>
+      </div>
+    </template>
+    <section class="presentacion"></section>
+
+    <template id="presentacion-content">
+      <div class="container__persona">
+        <img
+          class="presentacion__persona-img"
+          src="./medias/welcome/persona-png.png"
+          alt=""
+        />
+      </div>
+      <div class="presentacion__container">
+        <h2 class="p__container-title">Soy Adri</h2>
+        <p class="p__container-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsa
+          dolorum rem distinctio sunt modi assumenda, accusamus officiis
+          laudantium corporis repudiandae repellendus quis sed doloribus
+          obcaecati cum, nihil officia deleniti Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Perspiciatis eum vel, reprehenderit
+          doloribus in accusamus at quibusdam
+        </p>
+      </div>
+    </template>
+
+    <section class="services">
+      <h3 class="serv__cont-title">Mis servicios</h3>
+      <div class="services__container"></div>
+    </section>
+    <template id="services-template">
+      <div class="services__item">
+        <img class="ss__cont-img" src="./medias/welcome/pc.svg" alt="" />
+        <h3 class="ss__cont-img-subtitle">Y tambien otras cosas</h3>
+        <p class="ss__cont-img-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos,
+          voluptate ad. Laudantium harum incidunt porro dicta deleniti, totam
+          optio, neque, officiis earum quo cupiditate praesentium ea molestias
+          veniam quas velit!
+        </p>
+      </div>
+    </template>
+
+    <div class="form-cont"></div>
+    <div class="footer-cont"></div>
+  </body>
+</html>
