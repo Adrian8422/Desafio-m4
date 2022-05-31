@@ -14,7 +14,7 @@ function formAdd(el) {
    </div>
    <div class="form__label">
      <label for="mensaje"><h3 class="form__title-label">Mensaje</h3>
-     <textarea  class="textarea"  id="mensaje"></textarea>
+     <textarea name="mensaje"  class="textarea"  id="mensaje"></textarea>
     </div>
     <div class="form__content-button-container">
       <button class="form__content-label-button-enviar">Enviar</button>
@@ -31,7 +31,7 @@ function enviarForm() {
   formEl.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    const formName = e.target.name.value;
+    const formName = e.target.nombre.value;
     const formEmail = e.target.email.value;
     const formMensaje = e.target.mensaje.value;
     fetch("https://apx-api.vercel.app/api/utils/dwf", {
