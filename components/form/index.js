@@ -30,10 +30,10 @@ function enviarForm() {
 
   formEl.addEventListener("submit", (e) => {
     e.preventDefault();
-
-    const formName = e.target.nombre.value;
-    const formEmail = e.target.email.value;
-    const formMensaje = e.target.mensaje.value;
+    const target = e.target as any;
+    const formName = target.nombre.value;
+    const formEmail = target.email.value;
+    const formMensaje = target.mensaje.value;
     fetch("https://apx-api.vercel.app/api/utils/dwf", {
       method: "POST",
       headers: { "content-type": "application/json" },
