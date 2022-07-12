@@ -30,7 +30,7 @@ function enviarForm() {
 
   formEl.addEventListener("submit", (e) => {
     e.preventDefault();
-    const target = e.target as any;
+    const target = e.target;
     const formName = target.nombre.value;
     const formEmail = target.email.value;
     const formMensaje = target.mensaje.value;
