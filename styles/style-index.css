@@ -23,6 +23,7 @@ body {
   align-items: center;
   color: whitesmoke;
   text-shadow: -2px 3px 2px #040101;
+  text-align: center;
 }
 .welcome__title-one {
   font-size: 48px;
@@ -78,15 +79,20 @@ body {
 
 @media (min-width: 388px) {
   .presentacion__container {
-    padding: 150px 34px;
+    padding: 53px 34px;
   }
 }
 @media (min-width: 1062px) {
   .presentacion__container {
     color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }
 .p__container-title {
+  padding: 0px 22px 0 63px;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
@@ -94,7 +100,6 @@ body {
 }
 @media (min-width: 1062px) {
   .p__container-title {
-    margin-right: 72%;
   }
 }
 .p__container-text {

@@ -104,7 +104,7 @@ body {
   left: 0px;
   padding: 5px 21px;
 }
-@media (min-width: 960px) {
+@media (min-width: 500px) {
   .header__ventana-burger-content {
     display: none;
   }

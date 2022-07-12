@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfólio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,10 +12,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron:wght@700&family=Poppins&display=swap"
       rel="stylesheet"
     />
+
     <!-- /SCRIPT HEADER / -->
 
     <link rel="stylesheet" href="./components/header/index.css" />
     <script defer src="./components/header/index.js"></script>
+    <!-- /SCRIPT PORTFOLIO/ -->
+    <script defer src="./scripts/portfolio.js"></script>
+    <link rel="stylesheet" href="./styles/portfolio.css" />
 
     <!-- /CONTACT FORM/ -->
     <link rel="stylesheet" href="./components/form/index.css" />
@@ -64,7 +68,7 @@
       </div>
     </template>
 
-    <section class="services">
+    <section id="servicios" class="services">
       <h3 class="serv__cont-title">Mis servicios</h3>
       <div class="services__container"></div>
     </section>
@@ -80,8 +84,33 @@
         </p>
       </div>
     </template>
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio__presentation">
+        <h2 class="p__present-title">Portfolio</h2>
+      </div>
+
+      <div class="portfolio__content"></div>
+    </section>
+    <template id="portfolio-card-template">
+      <div class="portfolio-card">
+        <img
+          class="portfolio-card__img"
+          src="./medias/portfolio/services-img.svg"
+          alt=""
+        />
+        <div class="portfolio-card__content">
+          <h4 class="portfolio-card__title">Trabajo N?9857</h4>
+          <p class="portfolio-card__text">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </p>
+          <a class="portfolio-card__link" href="">Ver más</a>
+        </div>
+      </div>
+    </template>
 
     <div class="form-cont"></div>
-    <div class="footer-cont"></div>
+
+    <div id="contacto" class="footer-cont"></div>
   </body>
 </html>

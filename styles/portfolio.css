@@ -28,7 +28,7 @@ body {
 
 @media (min-width: 960px) {
   .portfolio__presentation {
-    height: 654px;
+    height: 170px;
     width: 100%;
     margin: 0 auto;
     display: flex;

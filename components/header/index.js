@@ -5,9 +5,9 @@ function headerAdd(el) {
     <h3 href="./servicios.html" class="header-name">Adri</h3>
   </a>
   <nav class="header__container-link">
-    <a class="header__links" href="./portfolio.html">Portfolio</a>
-    <a class="header__links" href="./servicios.html">Servicios</a>
-    <a class="header__links" href="./contacto.html">Contacto</a>
+    <a class="header__links" href="#portfolio">Portfolio</a>
+    <a class="header__links" href="#servicios">Servicios</a>
+    <a class="header__links" href="#contacto">Contacto</a>
   </nav>
   <button class="header__button-open">
     <img
@@ -22,15 +22,21 @@ function headerAdd(el) {
         <img class="img-close" src="./medias/header/close.png" alt="cerrar" />
       </button>
       <div class="header__ventana-links">
-        <a class="link" href="./portfolio.html">Portfolio</a>
-        <a class="link" href="./servicios.html">Servicios</a>
-        <a class="link" href="./contacto.html">Contacto</a>
+      <a class="link" href="#portfolio">Portfolio</a>
+      <a class="link" href="#servicios">Servicios</a>
+      <a class="link" href="#contacto">Contacto</a>
       </div>
     </div>
   </div>
 </header>`;
 
   const buttonOpenEl = componentEl.querySelector(".header__button-open");
+  const buttonsWindow = componentEl.querySelectorAll(".link");
+  buttonsWindow.forEach((button) => {
+    button.addEventListener("click", () => {
+      ventanaEl.style.display = "";
+    });
+  });
   const buttonCloseEl = componentEl.querySelector(".ventana__close");
   const ventanaEl = componentEl.querySelector(".header__ventana-burger");
   buttonOpenEl.addEventListener("click", () => {
