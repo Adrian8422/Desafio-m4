@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "back-dist"
+  },
+
+  "includes": ["mailer"],
+  "exclude": ["front-src"]
+}
+
+// {
+//     "compilerOptions": {
+
+//       "target": "es5",
+//       "outDir": "dist",
+//       "moduleResolution": "node",
+//       "esModuleInterop": true,
+//       "jsx": "react"
+//     },
+//     "include": ["src/**/*.*"]
+//   }

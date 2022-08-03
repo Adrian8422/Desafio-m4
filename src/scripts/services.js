@@ -21,11 +21,12 @@ function getWorks() {
       return res.json();
     })
     .then((data) => {
-      // console.log(data);
+      console.log("return del fetch", data);
       const fieldsCollection = data.items.map((item) => {
         return {
           title: item.fields.titulo,
           descripcion: item.fields.descripcion,
+          url: item.fields.url,
           imageID: item.fields.imagen.sys.id,
           includes: data.includes.Asset,
         };
@@ -48,6 +49,7 @@ function main() {
   getWorks().then((works) => {
     // // console.log(works);
     for (const w of works) {
+      console.log(w);
       addWorkCard(w);
     }
   });

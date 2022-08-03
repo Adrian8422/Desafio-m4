@@ -34,7 +34,7 @@ body {
 .header__container-link {
   display: none;
 }
-@media (min-width: 960px) {
+@media (min-width: 500px) {
   .header__container-link {
     display: flex;
     align-items: center;
@@ -55,18 +55,45 @@ body {
   border-radius: 5px;
   transition: all 550ms ease;
 }
-.header__button-open {
-  height: 40px;
-  width: 40px;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: transparent;
-  border: none;
-  margin-right: 27px;
+#navMenu > span {
+  display: block;
+  width: 28px;
+  height: 2px;
+  border-radius: 9999px;
+  background-color: rgb(251, 251, 251);
+}
+#navMenu > span:not(:last-child) {
+  margin-bottom: 7px;
+  filter: drop-shadow(2px 0px 1px #000);
 }
 
-@media (min-width: 960px) {
-  .header__button-open {
+#navMenu,
+#navMenu > span {
+  width: 28px;
+  transition: all 0.4s ease-in-out;
+  filter: drop-shadow(1px 1px 3px #000);
+}
+
+#navMenu.active {
+  transition-delay: 0.8s;
+  transform: rotate(45deg);
+}
+#navMenu.active > span:nth-child(2) {
+  width: 0;
+}
+#navMenu.active > span:nth-child(1),
+#navMenu.active > span:nth-child(3) {
+  transition-delay: 0.4s;
+}
+#navMenu.active > span:nth-child(1) {
+  transform: translateY(9px);
+}
+#navMenu.active > span:nth-child(3) {
+  transform: translateY(-9px) rotate(90deg);
+}
+
+@media (min-width: 500px) {
+  #navMenu {
     display: none;
   }
 }
@@ -86,7 +113,7 @@ body {
   bottom: 0;
   padding: 20px;
 }
-@media (min-width: 960px) {
+@media (min-width: 500px) {
   .header__ventana-burger {
   }
 }

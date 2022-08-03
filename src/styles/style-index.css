@@ -171,7 +171,8 @@ body {
   width: 315px;
   height: 505px;
   margin-bottom: 50px;
-  box-shadow: rgb(0 0 0 / 15%) 6px 5px 8px;
+  box-shadow: rgb(0 0 0 / 15%) 3px 2px 4px;
+  border-radius: 13px;
 }
 @media (min-width: 720px) {
   .services__item {
@@ -180,7 +181,14 @@ body {
     height: 505px;
   }
 }
-
+.services__item:hover {
+  box-shadow: rgb(0 0 0 / 15%) 5px 5px 7px;
+  transition: 0.5s;
+}
+.container-img {
+  align-items: center;
+  width: 300px;
+}
 .ss__cont-img-subtitle {
   font-size: 24px;
   margin: 17px 0;
@@ -192,4 +200,8 @@ body {
   margin: 0;
 
   text-align: center;
+}
+.ss__cont-img {
+  padding: 12px;
+  width: 100%;
 }

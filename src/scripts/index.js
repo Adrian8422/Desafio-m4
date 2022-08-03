@@ -88,6 +88,7 @@ function getMyServices() {
       return res.json();
     })
     .then((data) => {
+      console.log("data que llega", data);
       const fieldsCollection = data.items.map((item) => {
         return {
           title: item.fields.titulo,

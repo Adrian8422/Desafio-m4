@@ -9,13 +9,11 @@ function headerAdd(el) {
     <a class="header__links" href="#servicios">Servicios</a>
     <a class="header__links" href="#contacto">Contacto</a>
   </nav>
-  <button class="header__button-open">
-    <img
-      class="button-open-img"
-      src="./medias/header/menu-white.png"
-      alt=""
-    />
-  </button>
+  <div id="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
   <div class="header__ventana-burger">
     <div class="header__ventana-burger-content">
       <button class="ventana__close">
@@ -30,7 +28,8 @@ function headerAdd(el) {
   </div>
 </header>`;
 
-  const buttonOpenEl = componentEl.querySelector(".header__button-open");
+  var stateButton = false;
+  const buttonOpenEl = componentEl.querySelector("#navMenu");
   const buttonsWindow = componentEl.querySelectorAll(".link");
   buttonsWindow.forEach((button) => {
     button.addEventListener("click", () => {
@@ -39,9 +38,21 @@ function headerAdd(el) {
   });
   const buttonCloseEl = componentEl.querySelector(".ventana__close");
   const ventanaEl = componentEl.querySelector(".header__ventana-burger");
-  buttonOpenEl.addEventListener("click", () => {
-    ventanaEl.style.display = "contents";
-  });
+  if (stateButton == false) {
+    buttonOpenEl.addEventListener("click", () => {
+      buttonOpenEl.classList.add("active");
+      ventanaEl.style.display = "contents";
+      stateButton == true;
+    });
+  }
+  if (stateButton == true) {
+    console.log("entraaca");
+    buttonOpenEl.addEventListener("click", () => {
+      buttonOpenEl.classList.remove("active");
+      ventanaEl.style.display = "";
+      stateButton = false;
+    });
+  }
   buttonCloseEl.addEventListener("click", () => {
     ventanaEl.style.display = "";
   });

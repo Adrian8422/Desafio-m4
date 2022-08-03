@@ -76,12 +76,31 @@ body {
   margin-top: 67px;
   box-shadow: rgb(0 0 0 / 15%) 9px 8px 7px;
   margin-bottom: 67px;
-}
 
+  border-radius: 18px;
+}
+.portfolio-card:hover .portfolio-card__img {
+  height: 300px;
+  transition: 1.2s;
+  overflow: hidden;
+  transition-delay: 0.1s;
+  white-space: normal;
+  border-radius: 18px;
+  /* display: flex;
+  position: relative;
+  flex-direction: column;
+  box-shadow: 2px 4px 12pxrgba (0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1); */
+}
 .portfolio-card__img {
+  display: flex;
+  transition: 1.2s;
+
   object-fit: cover;
   width: 100%;
   height: 100%;
+  z-index: 9;
+  height: 0;
 }
 .portfolio-card__content {
   padding: 3vh 3vh;
