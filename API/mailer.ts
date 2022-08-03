@@ -2,12 +2,12 @@
 const nodemailer = require("nodemailer");
 
 export const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
+  host: process.env.HOST_NODEMAILER,
   port: 465,
   secure: true, // true for 465, false for other ports
   auth: {
     user: "manbassman1996@gmail.com", // generated ethereal user
-    pass: "iqzldylgekrveicj", // generated ethereal password
+    pass: process.env.PASS_NODEMAILER, // generated ethereal password
   },
 });
 
@@ -21,7 +21,7 @@ export async function sendEmailToUser(emailUser, emailFrom, name, message) {
       html: `<strong> Hola soy: ${name} =>>> 
       <br/>
       Su mensaje: ${message} </strong>
-    and his cellphone ${""} `, // html body
+    `, // html body
     })
     .catch((error) => {
       console.log("aca esta", error);
