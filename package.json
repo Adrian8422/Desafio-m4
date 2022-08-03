@@ -1,6 +1,7 @@
 {
   "name": "PortfolioAdri",
   "version": "1.0.0",
+  "main": "index.js",
   "repository": "git@github.com:Adrian8422/Desafio-m4.git",
   "author": "Adrian Villegas <manbassman1996@gmail.com>",
   "license": "MIT",
