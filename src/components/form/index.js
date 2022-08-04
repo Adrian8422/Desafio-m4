@@ -27,7 +27,7 @@ function formAdd(el) {
 
 // action="https://formsubmit.co/manbassman1996@gmail.com" method="POST"
 function enviarForm() {
-  const api_base_url = process.env.HOST_STATE;
+  const api_base_url = "https://portfolio-6357a.web.app";
   const formEl = document.querySelector(".form__content");
 
   formEl.addEventListener("submit", (e) => {
@@ -39,7 +39,10 @@ function enviarForm() {
     console.log("datossss", formName, formEmail, formMensaje);
     fetch(api_base_url + "/email", {
       method: "POST",
-      headers: { "content-type": "application/json" },
+      headers: {
+        "Access-Control-Allow-Origin": "https://portfolio-6357a.web.app",
+        "content-type": "application/json",
+      },
       body: JSON.stringify({
         emailUser: "manbassman1996@gmail.com",
         emailFrom: formEmail,

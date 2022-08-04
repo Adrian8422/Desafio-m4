@@ -5,11 +5,12 @@ import { sendEmailToUser } from "./mailer";
 import bodyParser = require("body-parser");
 
 const app = express();
-app.use(express.static("src"));
+app.use(express.static("dist"));
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(cors());
 const port = process.env.PORT || 3003;
-const pathResolve = path.resolve("", "src/index.html");
+const pathResolve = path.resolve("", "./dist/index.html");
+
 console.log("path", pathResolve);
 /// SENT EMAIL
 app.post("/email", async (req, res) => {

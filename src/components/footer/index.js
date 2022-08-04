@@ -1,5 +1,5 @@
 function footerAdd(el) {
-  const componentEl = document.createElement("div");
+  var componentEl = document.createElement("div");
   componentEl.innerHTML = `<section class="footer">
     <h3  href="./index.html" class="footer__name">Adri</h3>
     <div class="footer__container-links">
