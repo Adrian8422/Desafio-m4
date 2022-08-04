@@ -16,9 +16,9 @@ export async function sendEmailToUser(emailUser, emailFrom, name, message) {
     .sendMail({
       from: '"Forgot password 👻" <manbassman1996@gmail.com>', // sender address
       to: emailUser, // list of receivers
-      subject: `Correo: ${emailFrom} `, // Subject line
-      text: `Su email: ${emailFrom}`, // plain text body
-      html: `<strong> Hola soy: ${name} =>>> 
+      subject: ` ${emailFrom} `, // Subject line
+      text: ` ${emailFrom}`, // plain text body
+      html: ` ${name} =>>> 
       <br/>
       Su mensaje: ${message} </strong>
     `, // html body

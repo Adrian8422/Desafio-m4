@@ -37,7 +37,6 @@ function enviarForm() {
     const formEmail = target.email.value;
     const formMensaje = target.mensaje.value;
 
-    console.log("datossss", formName, formEmail, formMensaje);
     fetch(api_base_url + "/email", {
       method: "POST",
       headers: {
@@ -47,8 +46,8 @@ function enviarForm() {
       body: JSON.stringify({
         emailUser: "manbassman1996@gmail.com",
         emailFrom: formEmail,
-        name: formEmail,
-        message: formMensaje,
+        name: `Email:${formEmail} `,
+        message: `Mensaje del remitente: ${formMensaje}`,
       }),
     })
       .then((res) => res.json())
