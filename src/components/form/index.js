@@ -27,7 +27,7 @@ function formAdd(el) {
 
 // action="https://formsubmit.co/manbassman1996@gmail.com" method="POST"
 function enviarForm() {
-  const api_base_url = "https://portfolio-6357a.web.app";
+  const api_base_url = "https://current-desafio-m-7.herokuapp.com";
   const formEl = document.querySelector(".form__content");
 
   formEl.addEventListener("submit", (e) => {
@@ -36,17 +36,18 @@ function enviarForm() {
     const formName = target.nombre.value;
     const formEmail = target.email.value;
     const formMensaje = target.mensaje.value;
+
     console.log("datossss", formName, formEmail, formMensaje);
     fetch(api_base_url + "/email", {
       method: "POST",
       headers: {
-        "Access-Control-Allow-Origin": "https://portfolio-6357a.web.app",
         "content-type": "application/json",
       },
+
       body: JSON.stringify({
         emailUser: "manbassman1996@gmail.com",
         emailFrom: formEmail,
-        name: formName,
+        name: formEmail,
         message: formMensaje,
       }),
     })

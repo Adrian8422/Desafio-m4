@@ -1,6 +1,7 @@
 import * as path from "path";
 import * as express from "express";
-import * as cors from "cors";
+let cors = require("cors");
+
 import { sendEmailToUser } from "./mailer";
 import bodyParser = require("body-parser");
 
@@ -8,10 +9,22 @@ const app = express();
 app.use(express.static("dist"));
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(cors());
-const port = process.env.PORT || 3003;
+const port = process.env.PORT || 3002;
 const pathResolve = path.resolve("", "./dist/index.html");
 
 console.log("path", pathResolve);
+
+// app.use((req, res, next) => {
+//   res.setHeader(
+//     "Access-Control-Allow-Origin",
+//     "https://portfolio-6357a.firebaseapp.com"
+//   );
+//   res.header(
+//     "Access-Control-Allow-Headers",
+//     "Origin, X-Requested-With, Content-Type, Accept"
+//   );
+//   next();
+// });
 /// SENT EMAIL
 app.post("/email", async (req, res) => {
   const { emailUser, emailFrom, name, message, cellphone } = req.body;
