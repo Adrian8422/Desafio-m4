@@ -7,22 +7,19 @@ body {
   padding: 0;
 }
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   width: 100%;
   height: 100px;
-  background-color: transparent;
-  align-items: center;
-  padding: 30px 0px;
-
-  position: fixed;
-  background-color: #1e1e1ffc;
   height: 50px;
+  background-color: #1e1e1ffc;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+  display: flex;
+  position: fixed;
 }
 .header__logo-home {
   text-decoration: none;
-  margin: 0 28px;
 }
 .header-name {
   font-family: "Orbitron", sans-serif;
@@ -103,15 +100,25 @@ body {
 }
 
 /* //  HEADER VENTANA HAMBURGUESA */
-.header__ventana-burger {
-  display: none;
-  position: absolute;
-  background-color: #323b35;
-  top: 0;
+#header__ventana-burger {
+  position: fixed;
+  text-align: center;
+  top: 52px;
+  right: -100%;
+  width: 100%;
+
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #8af1ff;
+  transition: 0.5s;
+  border-radius: 22px;
+  box-shadow: 1px 3px 3px 3px black;
+}
+#header__ventana-burger.active {
   right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 20px;
+  transition-delay: 0.1s;
 }
 @media (min-width: 500px) {
   .header__ventana-burger {
@@ -119,17 +126,19 @@ body {
 }
 
 .header__ventana-burger-content {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  height: 681px;
-  align-items: center;
-  position: absolute;
+  height: 548px;
   background-color: #417670;
-  top: 0;
-  right: 8px;
-  left: 0px;
+  flex-direction: column;
+  align-items: center;
   padding: 5px 21px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 8px;
+  justify-content: center;
+  border-radius: 9px;
 }
 @media (min-width: 500px) {
   .header__ventana-burger-content {
@@ -161,15 +170,16 @@ body {
 }
 
 .link {
-  font-family: "Montserrat", sans-serif;
-  font-size: 32px;
-  text-decoration: none;
-  color: black;
-  padding: 24px;
+  color: #000;
+  border-radius: 10px;
   margin-bottom: 56px;
-  border: solid 2px #19171708;
-  border-radius: 60px;
-  box-shadow: 11px 11px 14px 0px #100f0fad;
+  padding: 7px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 5px 6px 10px #312e2e78;
+  width: 180px;
+  background-color: cadetblue;
 }
 
 /* ////// LINKS DESKTOP  */

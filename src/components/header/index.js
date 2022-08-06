@@ -14,11 +14,8 @@ function headerAdd(el) {
       <span></span>
       <span></span>
   </div>
-  <div class="header__ventana-burger">
+  <div id="header__ventana-burger" >
     <div class="header__ventana-burger-content">
-      <button class="ventana__close">
-        <img class="img-close" src="./medias/header/close.png" alt="cerrar" />
-      </button>
       <div class="header__ventana-links">
       <a class="link" href="#portfolio">Portfolio</a>
       <a class="link" href="#servicios">Servicios</a>
@@ -28,33 +25,64 @@ function headerAdd(el) {
   </div>
 </header>`;
 
-  var stateButton = false;
+  var stateButton = "hola";
+  const state = {
+    data: {
+      headerActive: false,
+    },
+    listeners: [],
+
+    getState() {
+      return this.data;
+    },
+    setActiveHeader() {
+      const cs = this.getState();
+      cs.headerActive = true;
+      this.setState(cs);
+    },
+    desactiveHeader() {
+      const cs = this.getState();
+      cs.headerActive = false;
+      this.setState(cs);
+    },
+    setState(newDate) {
+      this.data = newDate;
+      for (const cb of this.listeners) {
+        cb();
+      }
+      console.log("el state cambio", newDate);
+    },
+    subscribe(callback) {
+      this.listeners.push(callback);
+    },
+  };
+  const cs = state.getState();
+
+  console.log("header", cs);
+
   const buttonOpenEl = componentEl.querySelector("#navMenu");
   const buttonsWindow = componentEl.querySelectorAll(".link");
+
   buttonsWindow.forEach((button) => {
     button.addEventListener("click", () => {
       ventanaEl.style.display = "";
     });
   });
-  const buttonCloseEl = componentEl.querySelector(".ventana__close");
-  const ventanaEl = componentEl.querySelector(".header__ventana-burger");
-  if (stateButton == false) {
-    buttonOpenEl.addEventListener("click", () => {
+
+  const ventanaEl = componentEl.querySelector("#header__ventana-burger");
+
+  buttonOpenEl.addEventListener("click", () => {
+    // buttonOpenEl.setAttribute("value", "true");
+    if (cs.headerActive == false) {
+      state.setActiveHeader();
+      ventanaEl.classList.add("active");
       buttonOpenEl.classList.add("active");
-      ventanaEl.style.display = "contents";
-      stateButton == true;
-    });
-  }
-  if (stateButton == true) {
-    console.log("entraaca");
-    buttonOpenEl.addEventListener("click", () => {
+    } else if (!cs.headerActive == false) {
+      state.desactiveHeader();
       buttonOpenEl.classList.remove("active");
+      ventanaEl.classList.remove("active");
       ventanaEl.style.display = "";
-      stateButton = false;
-    });
-  }
-  buttonCloseEl.addEventListener("click", () => {
-    ventanaEl.style.display = "";
+    }
   });
 
   el.appendChild(componentEl);
