@@ -5,13 +5,13 @@ function footerAdd(el) {
     <div class="footer__container-links">
       <a class="footer__link" href="https://www.instagram.com/adrian_8422/"
         >Instagram
-        <img src="./medias/footer/instagram (1).svg" alt style="margin-left: 5px"
+        <img src="../../medias/footer/instagram.png" alt style="margin-left: 5px"
       /></a>
       <a class="footer__link" href=""
-        >Linkedin <img src="./medias/footer/linkedin.svg" alt style="margin-left: 5px"
+        >Linkedin <img src="../../medias/footer/linkedin.png" alt style="margin-left: 5px"
       /></a>
       <a class="footer__link" href="https://github.com/Adrian8422"
-        >Github <img src="./medias/footer/github.svg" alt style="margin-left: 5px"
+        >Github <img src="../../medias/footer/github (1).png" alt style="margin-left: 5px"
       /></a>
     </div>
   </section>`;

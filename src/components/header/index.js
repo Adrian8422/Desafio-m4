@@ -65,6 +65,7 @@ function headerAdd(el) {
 
   buttonsWindow.forEach((button) => {
     button.addEventListener("click", () => {
+      ventanaEl.classList.remove("active");
       ventanaEl.style.display = "";
     });
   });
