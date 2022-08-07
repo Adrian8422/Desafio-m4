@@ -1,4 +1,4 @@
 node_modules
 back-dist
 .env
-.parcel-cache
+.parcel-cached.

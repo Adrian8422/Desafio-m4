@@ -113,12 +113,11 @@ body {
   }
 }
 .p__container-text {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  margin-top: 45px;
-  max-width: 51vh;
+  max-width: 396px;
   text-align: center;
+  /* margin: 45px 0 0; */
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
 }
 @media (min-width: 1062px) {
   .p__container-text {
