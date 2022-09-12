@@ -173,6 +173,7 @@ body {
   }
 }
 .services__item {
+  cursor: pointer;
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;

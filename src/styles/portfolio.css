@@ -107,6 +107,7 @@ body {
 }
 
 .portfolio-card {
+  cursor: pointer;
   font-size: 48px;
   max-width: 269px;
   margin: 0 auto;
