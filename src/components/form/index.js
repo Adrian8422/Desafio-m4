@@ -44,10 +44,12 @@ function enviarForm() {
       },
 
       body: JSON.stringify({
-        emailUser: "manbassman1996@gmail.com",
+        emailUser: "adrian.tag.villegas@gmail.com",
         emailFrom: formEmail,
         name: `Email:${formEmail} `,
-        message: `Mensaje del remitente: ${formMensaje}`,
+        message: `
+        Nombre del remitente: ${formName} <||||>
+        Mensaje del remitente: ${formMensaje}`,
       }),
     })
       .then((res) => res.json())
