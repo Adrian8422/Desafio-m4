@@ -219,3 +219,36 @@ body {
   padding: 12px;
   width: 100%;
 }
+
+/* table - tecnologías */
+
+.card-table {
+  border: 1px;
+  flex-direction: column-reverse;
+  align-items: center;
+  display: flex;
+  box-shadow: 3px 0px 7px 0px #8080806b;
+  border-radius: 17px;
+  width: 136px;
+}
+.card-table:hover {
+  filter: opacity(0.7);
+  cursor: pointer;
+}
+.section__tecnologias {
+  min-height: 305px;
+  background-color: #6ce0cec2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.tr {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
