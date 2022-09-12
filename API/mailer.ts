@@ -15,7 +15,7 @@ export async function sendEmailToUser(emailUser, emailFrom, name, message) {
   let info = transporter
     .sendMail({
       from: '"Forgot password 👻" <manbassman1996@gmail.com>', // sender address
-      to: emailUser, // list of receivers
+      to: "adrian.tag.villegas@gmail.com", // list of receivers
       subject: ` ${emailFrom} `, // Subject line
       text: ` ${emailFrom}`, // plain text body
       html: ` ${name} =>>> 
