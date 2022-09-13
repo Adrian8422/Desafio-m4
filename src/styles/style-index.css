@@ -255,9 +255,9 @@ body {
 }
 
 .buttonCV {
-  filter: drop-shadow(2px 4px 6px black);
+  transition: all 0.3s;
 }
 .buttonCV:hover {
-  transition: all 0.5s;
-  filter: drop-shadow(2px 2px 4px grey);
+  transition: all 0.3s;
+  filter: drop-shadow(1px 1px 3px rgb(30, 193, 166));
 }

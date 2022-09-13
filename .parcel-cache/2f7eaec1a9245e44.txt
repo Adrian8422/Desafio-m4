@@ -1,10 +1,10 @@
-5453
+5469
 72C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\terser\lib\minify.js133040130138730000 0
 43C:\Users\Adrian\desktop\src\Desafio-m4\.env133040988570331439 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\concat-map133040140648791421 1
 61C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\tecnologias133074681085059280 1
 61C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\is-number133040140655771989 1
-43C:\Users\Adrian\desktop\src\Desafio-m4\dist133075669566721684 1
+43C:\Users\Adrian\desktop\src\Desafio-m4\dist133075678692571086 1
 74C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\optimizer-svgo133040153025887444 1
 78C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@swc\helpers\src\index.mjs133040130138850000 0
 79C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\supports-color\package.json132778811496830002 0
@@ -65,7 +65,7 @@
 83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\regions\CL.js133040130144760000 0
 98C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb.c133030272693960000 0
 48C:\Users\Adrian\desktop\src\Desafio-m4\back-dist133074165877900394 1
-49C:\Users\Adrian\desktop\src\Desafio-m4\index.html133075618284036135 0
+49C:\Users\Adrian\desktop\src\Desafio-m4\index.html133075676116816875 0
 88C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\webgpu.js133040130144760000 0
 71C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\pstree.remy\LICENSE132841799445650002 0
 84C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\optimizer-terser\LICENSE133030271459120000 0
@@ -114,6 +114,11 @@
 95C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\runtime-service-worker\package.json133030271469830000 0
 42C:\Users\Adrian\desktop\src\Desafio-m4\src133042843956263873 1
 86C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\utility-types\dist\mapped-types.js132778811280230000 0
+57C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\touch133040153029677758 1
+90C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\codeframe\lib\codeframe.js.map133030272682280000 0
+74C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\term-size\vendor\macos133040140678923912 1
+102C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\COPYRIGHT133030272693960000 0
+68C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\pdf\curriculum.png133075675907780365 0
 88C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\test\serializer.test.js133030271443610000 0
 84C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\source-map\dist\types.js133040130138900000 0
 52C:\Users\Adrian\desktop\src\Desafio-m4\tsconfig.json133040140150988669 0
@@ -145,11 +150,6 @@
 105C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\css-hanging-punctuation.js133040130144760000 0
 53C:\Users\Adrian\desktop\src\Desafio-m4\src\components133040140150538633 1
 94C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\posthtml-parser\dist\location-tracker.d.ts132869014317760000 0
-81C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\posthtml-parser\dist\index.js132869014317760000 0
-71C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\yaml\types\pairs.js132778811455400000 0
-104C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\source-map\node_modules\.bin\detect-libc.cmd133040153026257470 0
-82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\regenerator-runtime\runtime.js132778811352960000 0
-71C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\header\menu-white.png133040140150618639 0
 87C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\node-releases\data\release-schedule133040140679083917 1
 75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\to-regex-range\index.js132778811565820000 0
 79C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\negotiator\lib\mediaType.js132888368378460000 0
@@ -207,8 +207,6 @@
 86C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\reporter-cli\src\render.js133030271443440000 0
 101C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\runtime-js\src\helpers\node\css-loader.js133030272681880000 0
 51C:\Users\Adrian\desktop\src\Desafio-m4\src\state.js133042967787592233 0
-148C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\header\kisspng-hamburger-button-computer-icons-menu-food-5aeb470fee93b1.5542977815253685919772.png133040140150608640 0
-83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\regions\TO.js133040130144760000 0
 82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\express\lib\middleware\init.js132979991688730000 0
 80C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\merge-descriptors\HISTORY.md132694644990869998 0
 71C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\yaml\browser\map.js132778811455400000 0
@@ -220,21 +218,23 @@
 76C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\watcher\index.js132841421653599998 0
 75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\parent-module\readme.md132778811584080000 0
 49C:\Users\Adrian\desktop\src\Desafio-m4\src\styles133040140150988669 1
-87C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\type-fest\source\tsconfig-json.d.ts132778811465960000 0
-94C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\requests\TargetRequest.js133030271443610000 0
-58C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\services133040140150838645 1
 79C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\iconv-lite\encodings\tables133040140677663803 1
 108C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\watcher\prebuilds\linux-x64\node.napi.glibc.node132841421653599998 0
 90C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\promises.js133040130144760000 0
 77C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\posthtml-render\readme.md132778811388110000 0
 93C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@swc\helpers\src\_array_without_holes.mjs133040130138850000 0
 80C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\cache\src\FSCache.js133030271491010000 0
-53C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\pdf133075617223061843 1
+53C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\pdf133075676027920161 1
+64C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\pdf\css-cv.png133075673857910538 0
+75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\supports-color\index.js132778811496830002 0
+87C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\type-fest\source\tsconfig-json.d.ts132778811465960000 0
+94C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\requests\TargetRequest.js133030271443610000 0
+58C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\services133040140150838645 1
 67C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\yaml\types.d.ts132778811455400000 0
 99C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.c133030272693960000 0
 82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\mdn-data\css\units.schema.json132778811530330000 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\semver\LICENSE132778811263099998 0
-65C:\Users\Adrian\desktop\src\Desafio-m4\src\styles\style-index.css133075669470823379 0
+65C:\Users\Adrian\desktop\src\Desafio-m4\src\styles\style-index.css133075678602622092 0
 73C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\raw-body\package.json132941659905490000 0
 75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lines-and-columns\build133040140666792903 1
 70C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\tecnologias\html.png133074669687867710 0
@@ -361,6 +361,13 @@
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\runtime-js133040140650551604 1
 78C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nodemon\lib\rules\index.js133030263339410000 0
 83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\css-tree\lib\syntax\node\Raw.js132778811453990000 0
+148C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\header\kisspng-hamburger-button-computer-icons-menu-food-5aeb470fee93b1.5542977815253685919772.png133040140150608640 0
+83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\regions\TO.js133040130144760000 0
+81C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\posthtml-parser\dist\index.js132869014317760000 0
+71C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\yaml\types\pairs.js132778811455400000 0
+104C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\source-map\node_modules\.bin\detect-libc.cmd133040153026257470 0
+82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\regenerator-runtime\runtime.js132778811352960000 0
+71C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\header\menu-white.png133040140150618639 0
 71C:\Users\Adrian\desktop\src\Desafio-m4\src\medias\footer\github (1).png133043281953913668 0
 105C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\kerning-pairs-ligatures.js133040130144760000 0
 85C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\lib\public\Target.js133030271443610000 0
@@ -596,8 +603,6 @@
 83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\regions\CO.js133040130144760000 0
 61C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\dist133040140666812908 1
 56C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\depd133040140648971424 1
-83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\regions\SM.js133040130144760000 0
-72C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler\readme.md132937311689400002 0
 77C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\is-arrayish\.editorconfig132778811609990002 0
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\yaml\dist\types.js132778811455400000 0
 83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\utils\src\countLines.js133030271455910000 0
@@ -690,9 +695,6 @@
 62C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler133040140649051433 1
 78C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\watcher\src\shared133040140677143764 1
 58C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\dotenv133040153023597258 1
-79C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\object-inspect\test\deep.js133030257972490000 0
-69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\terser\PATRONS.md133040130138730000 0
-76C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\balanced-match\README.md132778811576359998 0
 114C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\posthtml\node_modules\posthtml-parser\dist\location-tracker.js132905430416210000 0
 90C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\json-parse-even-better-errors\index.js132778811585880002 0
 96C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\terser\lib\compress\drop-side-effect-free.js133040130138730000 0
@@ -790,6 +792,7 @@
 82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\browserslist\node_modules\.bin133040153027957610 1
 62C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\iconv-lite133040140655441964 1
 64C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\open.js133030272693960000 0
+67C:\Users\Adrian\desktop\src\Desafio-m4\dist\curriculum.adc6a37e.png133075676209821016 0
 69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\ignore-by-default133040140655461960 1
 64C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core133040140683044254 1
 78C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\v8-compile-cache\README.md132778811212890000 0
@@ -907,6 +910,7 @@
 116C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\test\fixtures\custom-format-infer-type\package.json133030271443610000 0
 56C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nopt133040140656532050 1
 89C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@swc\helpers\src\_read_only_error.mjs133040130138850000 0
+62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.99a8bee9.css133075675281793720 0
 103C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@jridgewell\gen-mapping\dist\types\gen-mapping.d.ts133007489421029998 0
 65C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@lezer\common133040140649821558 1
 67C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\qs\CHANGELOG.md132941659905510002 0
@@ -1082,7 +1086,6 @@
 82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\xxhash-wasm\umd\xxhash-wasm.js132778811424980000 0
 75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\yaml\types\timestamp.js132778811455400000 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\to-regex-range133040140658102182 1
-57C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\touch133040153029677758 1
 85C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\runtime-react-refresh\src133040140663312618 1
 90C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\transformer-babel\node_modules133040153026427477 1
 59C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\type-is133040140658252193 1
@@ -1351,8 +1354,8 @@
 62C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\terser\lib133040140668413037 1
 92C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\css-tree\lib\syntax\node\UnicodeRange.js132778811453990000 0
 76C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\function-bind\.npmignore132778811628110000 0
-74C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\undefsafe\package.json132841799445690000 0
 71C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\terser\package.json133040130138730000 0
+74C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\undefsafe\package.json132841799445690000 0
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\type-is\HISTORY.md132694644993099998 0
 89C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\svgo\lib\svgo\css-select-adapter.d.ts132803650579760000 0
 69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nodemon\lib\utils133040140678743888 1
@@ -1528,6 +1531,9 @@
 84C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\electron-to-chromium\versions.js133040130142680000 0
 82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\css-what\lib\es\types.d.ts.map132937311687780000 0
 76C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\timsort\build\timsort.js132778811486070002 0
+79C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\object-inspect\test\deep.js133030257972490000 0
+69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\terser\PATRONS.md133040130138730000 0
+76C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\balanced-match\README.md132778811576359998 0
 64C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\terser\tools133040140668433035 1
 96C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\object-observe.js133040130144760000 0
 73C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\boolbase\package.json132778811528590000 0
@@ -1635,9 +1641,6 @@
 77C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\is-binary-path\index.d.ts132841799448500000 0
 69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\term-size\license132778811268199998 0
 71C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\term-size\readme.md132778811268199998 0
-90C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\codeframe\lib\codeframe.js.map133030272682280000 0
-74C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\term-size\vendor\macos133040140678923912 1
-102C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\COPYRIGHT133030272693960000 0
 107C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\dom-serializer\node_modules\entities\lib\index.d.ts.map132778811563800002 0
 67C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\depd\History.md132845789923650000 0
 69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\raw-body\index.js132941659905490000 0
@@ -1767,7 +1770,6 @@
 75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\is-binary-path\index.js132841799448500000 0
 77C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\supports-color\browser.js132778811496830002 0
 69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nth-check\lib\esm133040140678513873 1
-75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\supports-color\index.js132778811496830002 0
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\iconv-lite\LICENSE132694644994930000 0
 73C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\negotiator\HISTORY.md132888368378460000 0
 91C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\clipboard.js133040130144760000 0
@@ -1810,9 +1812,6 @@
 79C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nopt\examples\my-program.js132841799451180000 0
 90C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\csso\lib\restructure\7-mergeRuleset.js132778811452310000 0
 79C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\source-map\lib\array-set.js132778811463650000 0
-69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\mdn-data\index.js132778811530330000 0
-80C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\ordered-binary\tests\test.js133030272770420000 0
-103C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\css-container-queries.js133040130144760000 0
 76C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\source-map\lib\base64.js132778811463650000 0
 83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\source-map\lib\binary-search.js132778811463650000 0
 77C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\index.js133030271443610000 0
@@ -1936,6 +1935,7 @@
 116C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\simple-update-notifier\node_modules\semver\classes\comparator.js132987875911090000 0
 111C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\simple-update-notifier\node_modules\semver\classes\range.js132987875911090000 0
 72C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\side-channel\.github133040140667973000 1
+62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.bf0ad716.css133075677871972611 0
 71C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\side-channel\.nycrc132778811635060002 0
 94C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@babel\helper-validator-identifier\LICENSE133030272856170000 0
 79C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\express\lib\router\route.js132979991688730000 0
@@ -2189,6 +2189,9 @@
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\debug\package.json132694644990669998 0
 101C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest3.c133030272693960000 0
 74C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\ordered-binary\uuid.js133030272770420000 0
+69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\mdn-data\index.js132778811530330000 0
+80C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\ordered-binary\tests\test.js133030272770420000 0
+103C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\css-container-queries.js133040130144760000 0
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domelementtype\lib133040140659852331 1
 67C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\mime\types.json132694644995720002 0
 81C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\ordered-binary\dist\index.cjs133030272770420000 0
@@ -2218,7 +2221,7 @@
 92C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\dependencies\lz4\lib\dll\liblz4.def133030272693960000 0
 94C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\script-defer.js133040130144760000 0
 82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\object-inspect\test\element.js133030257972490000 0
-61C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\API\index.js133075669542909525 0
+61C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\API\index.js133075678669014078 0
 119C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one\package.json133030271443610000 0
 78C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nodemon\doc\cli\whoami.txt133030263339410000 0
 88C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\webusb.js133040130144760000 0
@@ -2240,7 +2243,7 @@
 86C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\object-inspect\test\toStringTag.js133030257972490000 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\clone\clone.js132778811258380002 0
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\error-ex\README.md132778811585570000 0
-62C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\API\mailer.js133075669542809529 0
+62C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\API\mailer.js133075678668914071 0
 80C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\object-inspect\test\undef.js133030257972490000 0
 114C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\010-introduction.md132945148938130000 0
 86C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\object-inspect\test\browser\dom.js133030257972490000 0
@@ -2361,6 +2364,7 @@
 69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\base-x\LICENSE.md132794897572950000 0
 76C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\css-tree\data\patch.json132778811453990000 0
 90C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nodemon\node_modules\debug\src\node.js132841799445739998 0
+63C:\Users\Adrian\desktop\src\Desafio-m4\dist\css-cv.06b07a33.png133075674402554845 0
 91C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nodemon\node_modules\.bin\nodetouch.cmd133040153029427726 0
 75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\ipaddr.js\lib\ipaddr.js132694644995550002 0
 88C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\nodemon\node_modules\.bin\semver.cmd133040153029387722 0
@@ -2690,6 +2694,7 @@
 69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\package.json133030272693960000 0
 97C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\input-selection.js133040130144760000 0
 64C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\read.js133030272693960000 0
+66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.7ccb6b1d.css.map133075677616485671 0
 88C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\transformer-svg\package.json133030271481830000 0
 60C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\lmdb\src133040140667032920 1
 83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\regions\MA.js133040130144760000 0
@@ -2977,8 +2982,8 @@
 82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\htmlparser2\lib\FeedHandler.js132811401918689998 0
 83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\regions\CD.js133040130144760000 0
 97C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\runtime-js\src\helpers\.eslintrc.json133030272681880000 0
-75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler\package.json132937311689400002 0
 73C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\htmlnano\CHANGELOG.md132945148938130000 0
+75C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler\package.json132937311689400002 0
 128C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0133040140647681314 1
 78C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\htmlparser2\lib\index.d.ts132811401918689998 0
 107C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\020-usage.md132945148938130000 0
@@ -3228,6 +3233,8 @@
 66C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler\lib133040140659882332 1
 136C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module-fallback\main.js133030272692480000 0
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler\LICENSE132937311689400002 0
+83C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\regions\SM.js133040130144760000 0
+72C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler\readme.md132937311689400002 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\.bin\json5.cmd133040153030397806 0
 77C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler\lib\index.d.ts132937311689400002 0
 81C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\domhandler\lib\index.d.ts.map132937311689400002 0
@@ -3658,6 +3665,7 @@
 67C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\concat-map\test133040140659442286 1
 74C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\concat-map\test\map.js132778811577260000 0
 74C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\commander\CHANGELOG.md132778811224100000 0
+62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.7ccb6b1d.css133075677616425648 0
 70C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\commander\index.js132778811224100000 0
 69C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\commander\LICENSE132778811224100000 0
 82C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\commander\package-support.json132778811224100000 0
@@ -4172,7 +4180,6 @@
 94C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\offline-apps.js133040130144760000 0
 97C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\offscreencanvas.js133040130144760000 0
 108C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133030271455910000 0
-104C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\transformer-postcss\node_modules\.bin\semver133040153027327555 0
 85C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\ogv.js133040130144760000 0
 93C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\ol-reversed.js133040130144760000 0
 95C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\caniuse-lite\data\features\online-status.js133040130144760000 0
@@ -4445,6 +4452,7 @@
 86C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@swc\helpers\src\_to_primitive.mjs133040130138850000 0
 89C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@swc\helpers\src\_to_property_key.mjs133040130138850000 0
 87C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\watcher\src\watchman\IPC.hh132841421653599998 0
+66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.961e43d7.css.map133075678692561075 0
 85C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@swc\helpers\src\_ts_decorate.mjs133040130138850000 0
 85C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@swc\helpers\src\_ts_metadata.mjs133040130138850000 0
 101C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\utils\test\input\sourcemap\source-root.js133030271455910000 0
@@ -4622,6 +4630,7 @@
 108C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\runtime-react-refresh\lib\ReactRefreshRuntime.js133030271469920000 0
 105C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\transformer-posthtml\node_modules\.bin\semver133040153027437566 0
 98C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\transformer-postcss\src\loadPlugins.js133030271481650000 0
+104C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\transformer-postcss\node_modules\.bin\semver133040153027327555 0
 99C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@jridgewell\set-array\dist\types\set-array.d.ts133007489421080000 0
 108C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\transformer-postcss\node_modules\.bin\semver.cmd133040153027327555 0
 97C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\transformer-postcss\lib\loadConfig.js133030271481650000 0
@@ -5182,6 +5191,7 @@
 85C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\public\Config.js133030271443610000 0
 89C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\public\Dependency.js133030271443610000 0
 90C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\public\Environment.js133030271443610000 0
+66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.6b2c294e.css.map133075676816693277 0
 97C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\public\MutableBundleGraph.js133030271443610000 0
 92C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\public\PluginOptions.js133030271443610000 0
 85C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@parcel\core\src\public\Target.js133030271443610000 0
@@ -5341,7 +5351,7 @@
 81C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@babel\highlight\node_modules133040140641440805 1
 81C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@babel\highlight\package.json133030272848220000 0
 78C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@babel\highlight\README.md133030272848220000 0
-83C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\src\components\buttonComp\index.js133075669542959533 0
+83C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\src\components\buttonComp\index.js133075678669064071 0
 93C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@babel\highlight\node_modules\ansi-styles133040140649771497 1
 87C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@babel\highlight\node_modules\chalk133040140654461879 1
 92C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\@babel\highlight\node_modules\color-name133040140654481883 1
@@ -5388,13 +5398,16 @@
 65C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\.bin\svgo.cmd133040153030887848 0
 67C:\Users\Adrian\desktop\src\Desafio-m4\node_modules\.bin\terser.cmd133040153030927854 0
 64C:\Users\Adrian\desktop\src\Desafio-m4\dist\3d-back.4d788150.jpg133075581645668043 0
-62C:\Users\Adrian\desktop\src\Desafio-m4\dist\cs-cv.3611c310.png133075617410621224 0
+62C:\Users\Adrian\desktop\src\Desafio-m4\dist\cs-cv.3611c310.png133075675086166421 0
 59C:\Users\Adrian\desktop\src\Desafio-m4\dist\cv.b5f84647.png133075609281260182 0
 65C:\Users\Adrian\desktop\src\Desafio-m4\dist\firebase.809104ea.png133075581645658045 0
 67C:\Users\Adrian\desktop\src\Desafio-m4\dist\GitHubIcon.c1ddf2c3.png133075581645658045 0
 63C:\Users\Adrian\desktop\src\Desafio-m4\dist\heroku.a947bc0c.png133075581644987986 0
 61C:\Users\Adrian\desktop\src\Desafio-m4\dist\html.b702ec02.png133075581645708040 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.060c8d8a.css.map133075667995494083 0
+52C:\Users\Adrian\desktop\src\Desafio-m4\API\mailer.ts133074164992375375 0
+62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.08e751db.css133075678325596284 0
+66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.08e751db.css.map133075678325662269 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.0ddbfd34.css133075619923081525 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.1f058683.css.map133075664015772637 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.3519bad3.css.map133075665097691517 0
@@ -5403,6 +5416,8 @@
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.4f994d1e.css.map133075668456330907 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.54a906ad.css133074208537612124 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.557899cc.css.map133075581659989298 0
+66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.9618fb5b.css.map133075581659989298 0
+62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.6b2c294e.css133075676816533257 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.7e1921ae.css133074708978591855 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.7e1921ae.css.map133074708978661856 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.87673b63.css133074707416581487 0
@@ -5410,11 +5425,12 @@
 65C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.8ecf170e.js.map133075581659989298 0
 61C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.927012a5.js133075581659789294 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.9618fb5b.css133075581659779272 0
-66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.9618fb5b.css.map133075581659989298 0
+62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.961e43d7.css133075678692461076 0
 61C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.977cc399.js133075581659789294 0
 65C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.977cc399.js.map133075581659989298 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.99484d63.css133074711342332170 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.99484d63.css.map133074711342422184 0
+66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.99a8bee9.css.map133075675281873747 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.9d5ad13a.css.map133075665933978356 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.af938823.css133075666721780596 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.af938823.css.map133075666721880609 0
@@ -5422,6 +5438,7 @@
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.b44f05eb.css.map133075666941273139 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.bc957a9e.css133075668890410379 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.bc957a9e.css.map133075668890490375 0
+66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.bf0ad716.css.map133075677872052616 0
 61C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.c3dbdf4d.js133075581659789294 0
 65C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.c3dbdf4d.js.map133075581659989298 0
 62C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.c4c3c8d7.css133074705780274671 0
@@ -5434,7 +5451,7 @@
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.fcffda1f.css.map133075599937388971 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.fda28eb2.css.map133075581659989298 0
 66C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.fe722a4e.css.map133075581659989298 0
-54C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.html133075669566621676 0
+54C:\Users\Adrian\desktop\src\Desafio-m4\dist\index.html133075678692461076 0
 67C:\Users\Adrian\desktop\src\Desafio-m4\dist\javascript.cfce2e3b.png133074659770787867 0
 63C:\Users\Adrian\desktop\src\Desafio-m4\dist\nextjs.00d207a9.png133075581644997992 0
 63C:\Users\Adrian\desktop\src\Desafio-m4\dist\nodeJS.063dd589.png133075581645658045 0
@@ -5445,10 +5462,9 @@
 54C:\Users\Adrian\desktop\src\Desafio-m4\dist\src\medias133075575920064220 1
 89C:\Users\Adrian\desktop\src\Desafio-m4\dist\src\medias\pdf\Adrian Villegas current-cv.pdf133075591745818610 0
 89C:\Users\Adrian\desktop\src\Desafio-m4\dist\src\medias\pdf\Adrian-Villegas-current-cv.pdf133075589399864222 0
-59C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\develop.js133075669542919546 0
+59C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\develop.js133075678669034069 0
 63C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\src\components133074165877910401 1
 74C:\Users\Adrian\desktop\src\Desafio-m4\back-dist\src\components\buttonComp133074165877910401 1
-52C:\Users\Adrian\desktop\src\Desafio-m4\API\mailer.ts133074164992375375 0
 56C:\Users\Adrian\desktop\src\Desafio-m4\.github\workflows133040328016394441 1
 83C:\Users\Adrian\desktop\src\Desafio-m4\.github\workflows\firebase-hosting-merge.yml133040349130754043 0
 90C:\Users\Adrian\desktop\src\Desafio-m4\.github\workflows\firebase-hosting-pull-request.yml133040327847729707 0
