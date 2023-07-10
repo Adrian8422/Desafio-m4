@@ -54,7 +54,7 @@ body {
     padding: 6px;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 1350px) {
   .portfolio__content {
     width: 100%;
     max-width: 400px;
@@ -110,6 +110,7 @@ body {
   cursor: pointer;
   font-size: 48px;
   max-width: 269px;
+  padding: 25px;
   margin: 0 auto;
   margin-top: 67px;
   box-shadow: rgb(0 0 0 / 15%) 9px 8px 7px;
@@ -117,6 +118,11 @@ body {
   text-align: -webkit-left;
 
   border-radius: 18px;
+}
+@media (min-width: 1350px) {
+  .portfolio-card {
+    padding: 0;
+  }
 }
 .portfolio-card:hover .portfolio-card__img {
   height: 300px;

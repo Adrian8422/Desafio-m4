@@ -14,7 +14,7 @@
     "parcel": "^2.4.1"
   },
   "devDependencies": {
-    "@types/node": "^18.0.6"
+    "@types/node": "^20.4.1"
   },
   "scripts": {
     "dev": "nodemon --watch ./API/index.ts --exec ts-node ./develop.ts",
