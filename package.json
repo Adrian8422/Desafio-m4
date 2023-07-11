@@ -4,19 +4,6 @@
   "repository": "git@github.com:Adrian8422/Desafio-m4.git",
   "author": "Adrian Villegas <manbassman1996@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "firebase-tools": "^12.4.3",
-    "nodemailer": "^6.7.7",
-    "nodemon": "^2.0.19",
-    "parcel": "^2.4.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20.4.1"
-  },
   "scripts": {
     "dev": "nodemon --watch ./API/index.ts --exec ts-node ./develop.ts",
     "sync": "ts-node ./back-src/sync.ts",
@@ -24,5 +11,16 @@
     "build:back": "tsc",
     "build": "yarn build:back && yarn build:front",
     "start": "node ./back-dist/develop.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-tools": "^12.4.3",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^3.0.1",
+    "parcel": "^2.9.3"
   }
 }
