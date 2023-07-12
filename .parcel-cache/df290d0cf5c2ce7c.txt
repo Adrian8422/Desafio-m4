@@ -1,4 +1,4 @@
-21612
+21614
 111C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\cjs\internal\operators\distinctUntilKeyChanged.js133335706863020000 0
 102C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm\internal\observable\innerFrom.js.map133335706863020000 0
 82C:\Users\Adrian\desktop\src\desafio-m4\node_modules\safer-buffer\Porting-Buffer.md133289201345510000 0
@@ -23,7 +23,7 @@
 89C:\Users\Adrian\desktop\src\desafio-m4\node_modules\get-uri\node_modules\fs-extra\LICENSE133289201334590000 0
 70C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@parcel\plugin\src133335707513555548 1
 132C:\Users\Adrian\desktop\src\desafio-m4\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\externalclient.js133335706822530000 0
-43C:\Users\Adrian\desktop\src\desafio-m4\dist133336606580650972 1
+43C:\Users\Adrian\desktop\src\desafio-m4\dist133336644651034793 1
 83C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\src\internal\ajax\types.ts133335706863020000 0
 94C:\Users\Adrian\desktop\src\desafio-m4\node_modules\gcp-metadata\node_modules\gaxios\README.md133335706887420000 0
 83C:\Users\Adrian\desktop\src\desafio-m4\node_modules\socks-proxy-agent\dist\agent.js133289201329250000 0
@@ -135,7 +135,7 @@
 106C:\Users\Adrian\desktop\src\desafio-m4\node_modules\portfinder\node_modules\async\internal\createTester.js133335706869710000 0
 77C:\Users\Adrian\desktop\src\desafio-m4\node_modules\underscore\cjs\indexBy.js133289201590680000 0
 98C:\Users\Adrian\desktop\src\desafio-m4\node_modules\cacache\node_modules\glob\dist\cjs\src\glob.js133335706941220000 0
-49C:\Users\Adrian\desktop\src\desafio-m4\index.html133336606443171773 0
+49C:\Users\Adrian\desktop\src\desafio-m4\index.html133336644457954098 0
 71C:\Users\Adrian\desktop\src\desafio-m4\node_modules\lodash\fp\dissoc.js133289201238570000 0
 92C:\Users\Adrian\desktop\src\desafio-m4\node_modules\yaml\dist\schema\yaml-1.1\timestamp.d.ts133335706900310000 0
 121C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@grpc\grpc-js\node_modules\@types\node\ts4.8\diagnostics_channel.d.ts133335699131080000 0
@@ -167,8 +167,6 @@
 56C:\Users\Adrian\desktop\src\desafio-m4\src\medias\footer133043283201725201 1
 86C:\Users\Adrian\desktop\src\desafio-m4\node_modules\http-proxy-agent\dist\index.js.map133289201327380000 0
 77C:\Users\Adrian\desktop\src\desafio-m4\node_modules\gcp-metadata\package.json133335706887810000 0
-67C:\Users\Adrian\desktop\src\desafio-m4\node_modules\re2\lib\util.cc133335706879510000 0
-98C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm5\internal\scheduler\async.js.map133335706863020000 0
 86C:\Users\Adrian\desktop\src\desafio-m4\node_modules\yaml\dist\schema\yaml-1.1\pairs.js133335706900310000 0
 51C:\Users\Adrian\desktop\src\desafio-m4\package.json133336603367470867 0
 84C:\Users\Adrian\desktop\src\desafio-m4\node_modules\yaml\dist\stringify\stringify.js133335706900310000 0
@@ -327,7 +325,7 @@
 58C:\Users\Adrian\desktop\src\desafio-m4\src\medias\services133040140150838645 1
 98C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@types\glob\node_modules\@types\node\http.d.ts133335699131080000 0
 72C:\Users\Adrian\desktop\src\desafio-m4\node_modules\ast-types\def\es7.js133289201339170000 0
-53C:\Users\Adrian\desktop\src\desafio-m4\src\medias\pdf133334888334199685 1
+53C:\Users\Adrian\desktop\src\desafio-m4\src\medias\pdf133336644325484481 1
 109C:\Users\Adrian\desktop\src\desafio-m4\node_modules\ansi-escapes\node_modules\type-fest\source\utilities.d.ts133335706900780000 0
 92C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\src\internal\operators\takeUntil.ts133335706863020000 0
 104C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm5\internal\operators\switchMapTo.js.map133335706863020000 0
@@ -558,6 +556,11 @@
 84C:\Users\Adrian\desktop\src\desafio-m4\node_modules\fast-url-parser\src\urlparser.js133335706878200000 0
 68C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rimraf\rimraf.js133289201392520000 0
 93C:\Users\Adrian\desktop\src\desafio-m4\node_modules\connect\node_modules\on-finished\index.js133335706866840000 0
+99C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm\internal\util\subscribeToArray.js133335706863020000 0
+78C:\Users\Adrian\desktop\src\desafio-m4\node_modules\end-of-stream\package.json133289201567890000 0
+85C:\Users\Adrian\desktop\src\desafio-m4\node_modules\uuid\dist\esm-browser\validate.js133289201558240000 0
+81C:\Users\Adrian\desktop\src\desafio-m4\node_modules\http-cache-semantics\index.js133335706937060000 0
+69C:\Users\Adrian\desktop\src\desafio-m4\src\medias\pdf\CV-JULY-ESP.pdf133336632015730940 0
 84C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@grpc\grpc-js\src\tls-helpers.ts133335706888400000 0
 94C:\Users\Adrian\desktop\src\desafio-m4\node_modules\node-gyp\test\fixtures\VS_2019_Preview.txt133335706915120000 0
 78C:\Users\Adrian\desktop\src\desafio-m4\node_modules\yaml\dist\doc\anchors.d.ts133335706900310000 0
@@ -3071,12 +3074,12 @@
 103C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@swc\helpers\_\_create_for_of_iterator_helper_loose133335707562296353 1
 57C:\Users\Adrian\desktop\src\desafio-m4\node_modules\toxic133335707503030608 1
 72C:\Users\Adrian\desktop\src\desafio-m4\node_modules\import-lazy\index.js133335706882500000 0
-75C:\Users\Adrian\desktop\src\desafio-m4\node_modules\underscore\amd\range.js133289201590680000 0
-77C:\Users\Adrian\desktop\src\desafio-m4\node_modules\sshpk\lib\formats\auto.js133335706907480000 0
 56C:\Users\Adrian\desktop\src\desafio-m4\node_modules\tr46133335707503084585 1
 83C:\Users\Adrian\desktop\src\desafio-m4\node_modules\caniuse-lite\data\regions\GT.js133335699087430000 0
 92C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@parcel\reporter-dev-server\package.json133335706955900000 0
 82C:\Users\Adrian\desktop\src\desafio-m4\node_modules\uc.micro\categories\Z\regex.js133289201596470000 0
+75C:\Users\Adrian\desktop\src\desafio-m4\node_modules\underscore\amd\range.js133289201590680000 0
+77C:\Users\Adrian\desktop\src\desafio-m4\node_modules\sshpk\lib\formats\auto.js133335706907480000 0
 77C:\Users\Adrian\desktop\src\desafio-m4\node_modules\semver\functions\valid.js133335706855770000 0
 98C:\Users\Adrian\desktop\src\desafio-m4\node_modules\caniuse-lite\data\features\font-size-adjust.js133335699087430000 0
 88C:\Users\Adrian\desktop\src\desafio-m4\node_modules\underscore\modules\_createEscaper.js133289201590680000 0
@@ -4983,9 +4986,6 @@
 80C:\Users\Adrian\desktop\src\desafio-m4\node_modules\uuid\dist\esm-browser\v35.js133289201558240000 0
 79C:\Users\Adrian\desktop\src\desafio-m4\node_modules\re2\vendor\re2\walker-inl.h133335706879510000 0
 79C:\Users\Adrian\desktop\src\desafio-m4\node_modules\uuid\dist\esm-browser\v4.js133289201558240000 0
-99C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm\internal\util\subscribeToArray.js133335706863020000 0
-78C:\Users\Adrian\desktop\src\desafio-m4\node_modules\end-of-stream\package.json133289201567890000 0
-85C:\Users\Adrian\desktop\src\desafio-m4\node_modules\uuid\dist\esm-browser\validate.js133289201558240000 0
 91C:\Users\Adrian\desktop\src\desafio-m4\node_modules\re2\vendor\re2\testing\simplify_test.cc133335706879510000 0
 83C:\Users\Adrian\desktop\src\desafio-m4\node_modules\exponential-backoff\dist\jitter133335707579374219 1
 65C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm133335707599637881 1
@@ -8817,6 +8817,8 @@
 75C:\Users\Adrian\desktop\src\desafio-m4\node_modules\lodash\fp\upperFirst.js133289201238570000 0
 98C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\cjs\internal\operators\expand.js.map133335706863020000 0
 94C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm5\internal\scheduler\async.js133335706863020000 0
+67C:\Users\Adrian\desktop\src\desafio-m4\node_modules\re2\lib\util.cc133335706879510000 0
+98C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm5\internal\scheduler\async.js.map133335706863020000 0
 100C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\esm5\internal\scheduler\AsyncAction.js133335706863020000 0
 75C:\Users\Adrian\desktop\src\desafio-m4\node_modules\is-path-inside\index.js133289201376440000 0
 101C:\Users\Adrian\desktop\src\desafio-m4\node_modules\cacache\node_modules\minimatch\dist\mjs\escape.js133335706944990000 0
@@ -10178,7 +10180,6 @@
 106C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\cjs\internal\operators\defaultIfEmpty.js.map133335706863020000 0
 90C:\Users\Adrian\desktop\src\desafio-m4\node_modules\protobufjs-cli\lib\tsd-jsdoc\plugin.js133289201566170000 0
 93C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\cjs\internal\operators\delay.js133335706863020000 0
-78C:\Users\Adrian\desktop\src\desafio-m4\node_modules\markdown-it\lib\rules_core133335707595306648 1
 66C:\Users\Adrian\desktop\src\desafio-m4\node_modules\nan\LICENSE.md133335706914860000 0
 97C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\cjs\internal\operators\delayWhen.js133335706863020000 0
 101C:\Users\Adrian\desktop\src\desafio-m4\node_modules\rxjs\dist\cjs\internal\operators\delayWhen.js.map133335706863020000 0
@@ -11368,7 +11369,7 @@
 98C:\Users\Adrian\desktop\src\desafio-m4\node_modules\proto3-json-serializer\build\src\duration.d.ts133296121424080000 0
 94C:\Users\Adrian\desktop\src\desafio-m4\node_modules\proto3-json-serializer\build\src\enum.d.ts133296121424080000 0
 81C:\Users\Adrian\desktop\src\desafio-m4\node_modules\google-auth-library\README.md133335706837740000 0
-58C:\Users\Adrian\desktop\src\desafio-m4\dist\src\medias\pdf133335708374784428 1
+58C:\Users\Adrian\desktop\src\desafio-m4\dist\src\medias\pdf133336644640514023 1
 96C:\Users\Adrian\desktop\src\desafio-m4\node_modules\proto3-json-serializer\build\src\enum.js.map133296121424080000 0
 85C:\Users\Adrian\desktop\src\desafio-m4\node_modules\jsdoc\templates\silent\publish.js133289201573410000 0
 74C:\Users\Adrian\desktop\src\desafio-m4\node_modules\lodash\_getFuncName.js133289201238570000 0
@@ -12725,6 +12726,7 @@
 76C:\Users\Adrian\desktop\src\desafio-m4\node_modules\markdown-it\lib\index.js133289201588140000 0
 74C:\Users\Adrian\desktop\src\desafio-m4\node_modules\colors\MIT-LICENSE.txt133335706846330000 0
 79C:\Users\Adrian\desktop\src\desafio-m4\node_modules\markdown-it\lib\renderer.js133289201588140000 0
+78C:\Users\Adrian\desktop\src\desafio-m4\node_modules\markdown-it\lib\rules_core133335707595306648 1
 97C:\Users\Adrian\desktop\src\desafio-m4\node_modules\markdown-it\lib\rules_inline\balance_pairs.js133289201588140000 0
 92C:\Users\Adrian\desktop\src\desafio-m4\node_modules\markdown-it\lib\rules_inline\emphasis.js133289201588140000 0
 92C:\Users\Adrian\desktop\src\desafio-m4\node_modules\js-yaml\node_modules\.bin\esvalidate.cmd133335707866191399 0
@@ -15037,7 +15039,6 @@
 84C:\Users\Adrian\desktop\src\desafio-m4\node_modules\http-proxy-agent\dist\index.d.ts133289201327380000 0
 74C:\Users\Adrian\desktop\src\desafio-m4\node_modules\http-errors\HISTORY.md133296121322660000 0
 72C:\Users\Adrian\desktop\src\desafio-m4\node_modules\http-errors\index.js133296121322660000 0
-81C:\Users\Adrian\desktop\src\desafio-m4\node_modules\http-cache-semantics\index.js133335706937060000 0
 80C:\Users\Adrian\desktop\src\desafio-m4\node_modules\http-cache-semantics\LICENSE133335706937060000 0
 71C:\Users\Adrian\desktop\src\desafio-m4\node_modules\htmlparser2\LICENSE133335699105540000 0
 99C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@opentelemetry\api\build\esm\metrics\Meter.d.ts133335706836140000 0
@@ -20451,7 +20452,7 @@
 92C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@parcel\core\lib\public\PluginOptions.js133335706952220000 0
 86C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@parcel\core\lib\public\Symbols.js133335706952220000 0
 85C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@parcel\config-default\index.json133335706951530000 0
-59C:\Users\Adrian\desktop\src\desafio-m4\back-dist\develop.js133336606542603881 0
+59C:\Users\Adrian\desktop\src\desafio-m4\back-dist\develop.js133336644601271274 0
 82C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@parcel\config-default\LICENSE133335706951530000 0
 87C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@parcel\config-default\package.json133335706951530000 0
 79C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@parcel\config-default\test133335707513015560 1
@@ -20586,6 +20587,7 @@
 106C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@opentelemetry\api\build\src\trace\tracer_options.d.ts133335706836140000 0
 104C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@opentelemetry\api\build\src\trace\tracer_options.js133335706836140000 0
 107C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@opentelemetry\api\build\src\trace\tracer_provider.d.ts133335706836140000 0
+74C:\Users\Adrian\desktop\src\desafio-m4\dist\src\medias\pdf\CV-JULY-ESP.pdf133336644640474023 0
 105C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@opentelemetry\api\build\src\trace\tracer_provider.js133335706836140000 0
 103C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@opentelemetry\api\build\src\trace\trace_flags.d.ts133335706836140000 0
 105C:\Users\Adrian\desktop\src\desafio-m4\node_modules\@opentelemetry\api\build\src\trace\trace_flags.js.map133335706836140000 0
@@ -21590,7 +21592,7 @@
 66C:\Users\Adrian\desktop\src\desafio-m4\dist\index.fcffda1f.css.map133075599937388971 0
 62C:\Users\Adrian\desktop\src\desafio-m4\dist\index.fe722a4e.css133075581659779272 0
 66C:\Users\Adrian\desktop\src\desafio-m4\dist\index.fe722a4e.css.map133075581659989298 0
-54C:\Users\Adrian\desktop\src\desafio-m4\dist\index.html133336606580630955 0
+54C:\Users\Adrian\desktop\src\desafio-m4\dist\index.html133336644651014788 0
 69C:\Users\Adrian\desktop\src\desafio-m4\dist\javascriptjs.2a8d5978.png133334869164834903 0
 69C:\Users\Adrian\desktop\src\desafio-m4\dist\javascriptjs.2ee1a4a9.png133335708375404362 0
 64C:\Users\Adrian\desktop\src\desafio-m4\dist\mongodb.2976bbc9.svg133335708371104427 0
@@ -21605,9 +21607,9 @@
 89C:\Users\Adrian\desktop\src\desafio-m4\dist\src\medias\pdf\Adrian Villegas current-cv.pdf133075591745818610 0
 52C:\Users\Adrian\desktop\src\desafio-m4\back-dist\src133074165877900394 1
 63C:\Users\Adrian\desktop\src\desafio-m4\back-dist\src\components133074165877910401 1
-83C:\Users\Adrian\desktop\src\desafio-m4\back-dist\src\components\buttonComp\index.js133336606542673900 0
-61C:\Users\Adrian\desktop\src\desafio-m4\back-dist\API\index.js133336606542543877 0
-62C:\Users\Adrian\desktop\src\desafio-m4\back-dist\API\mailer.js133336606542413849 0
+83C:\Users\Adrian\desktop\src\desafio-m4\back-dist\src\components\buttonComp\index.js133336644601321288 0
+61C:\Users\Adrian\desktop\src\desafio-m4\back-dist\API\index.js133336644601251270 0
+62C:\Users\Adrian\desktop\src\desafio-m4\back-dist\API\mailer.js133336644601091254 0
 56C:\Users\Adrian\desktop\src\desafio-m4\.github\workflows133040328016394441 1
 83C:\Users\Adrian\desktop\src\desafio-m4\.github\workflows\firebase-hosting-merge.yml133335770163888696 0
 90C:\Users\Adrian\desktop\src\desafio-m4\.github\workflows\firebase-hosting-pull-request.yml133040327847729707 0
