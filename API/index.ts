@@ -9,7 +9,7 @@ const app = express();
 app.use(express.static("dist"));
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(cors());
-const port = process.env.PORT || 3002;
+const port = process.env.HOST_STATE || 3002;
 const pathResolve = path.resolve("", "./dist/index.html");
 
 console.log("path", pathResolve);
