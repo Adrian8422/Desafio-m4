@@ -1,6 +1,6 @@
 // create reusable transporter object using the default SMTP transport
 const nodemailer = require("nodemailer");
-console.log("variable ambiente");
+
 export const transporter = nodemailer.createTransport({
   host: process.env.HOST_NODEMAILER,
   port: 465,

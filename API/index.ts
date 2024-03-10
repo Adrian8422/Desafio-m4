@@ -9,7 +9,7 @@ const app = express();
 app.use(express.static("dist"));
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(cors());
-const port = 3002;
+const port = process.env.HOST_STATE || 3002;
 const pathResolve = path.resolve("", "./dist/index.html");
 
 console.log("path", pathResolve);
@@ -17,7 +17,7 @@ console.log("path", pathResolve);
 app.use((req, res, next) => {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://portfolio-6357a.web.app/*",
+    "https://portfolio-6357a.web.app/",
     "http://127.0.0.1:8080"
   ); // Quité la barra al final de la URL
   res.header(
