@@ -2,3 +2,4 @@ node_modules
 back-dist
 .env
 .parcel-cached.
+dist
