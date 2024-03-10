@@ -27,7 +27,7 @@ function formAdd(el) {
 
 // action="https://formsubmit.co/manbassman1996@gmail.com" method="POST"
 function enviarForm() {
-  const api_base_url = "https://current-desafio-m-7.herokuapp.com";
+  const api_base_url = "https://portfolio-6357a.web.app";
   const formEl = document.querySelector(".form__content");
 
   formEl.addEventListener("submit", (e) => {

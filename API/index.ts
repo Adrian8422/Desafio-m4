@@ -14,17 +14,18 @@ const pathResolve = path.resolve("", "./dist/index.html");
 
 console.log("path", pathResolve);
 
-// app.use((req, res, next) => {
-//   res.setHeader(
-//     "Access-Control-Allow-Origin",
-//     "https://portfolio-6357a.firebaseapp.com"
-//   );
-//   res.header(
-//     "Access-Control-Allow-Headers",
-//     "Origin, X-Requested-With, Content-Type, Accept"
-//   );
-//   next();
-// });
+app.use((req, res, next) => {
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://portfolio-6357a.web.app",
+    "http://127.0.0.1:8080"
+  ); // Quité la barra al final de la URL
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 /// SENT EMAIL
 app.post("/email", async (req, res) => {
   const { emailUser, emailFrom, name, message, cellphone } = req.body;

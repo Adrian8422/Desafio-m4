@@ -20,7 +20,7 @@ body {
     padding: inherit;
     max-width: 1650px;
     margin: 0 auto;
-    background: linear-gradient(332deg, #6ce0cec2 29.35%, #6ce0cec2 78.73%);
+    background: #131212e8;
     text-align: -webkit-match-parent;
   }
 }
@@ -44,7 +44,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 48px;
   margin: 0;
-}
+  
+  color:#999}
 
 @media (min-width: 960px) {
   .p__present-title {
@@ -168,88 +169,107 @@ body {
 
 .portfolio-card {
   cursor: pointer;
-  font-size: 48px;
   max-width: 269px;
   margin-left: 8px;
   padding: 25px;
   margin: 0 auto;
   margin-top: 67px;
-  box-shadow: rgb(0 0 0 / 15%) 9px 8px 7px;
+  color:#999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 67px;
-  text-align: -webkit-left;
-
   border-radius: 18px;
+  background-color: #2C2C2C; /* Fondo blanco */
+  transition: box-shadow 0.3s ease; /* Transición para sombra */
+  display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.portfolio-card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el ratón */
+}
+
+.portfolio-card__img {
+  width: 100%;
+  height: auto; /* Ajustar altura automáticamente */
+  border-radius: 18px 18px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+.portfolio-card__content {
+  padding: 20px;
+}
+
+.portfolio-card__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.portfolio-card__text {
+  font-size: 16px;
+  color: #666; /* Color de texto gris */
+  margin-bottom: 20px;
+}
+
+.portfolio-card__link {
+  font-size: 15px;
+  color: #007bff; /* Color de enlace azul */
+  text-decoration: none;
+}
+
+.portfolio-card__link:hover {
+  color: #0056b3; /* Cambiar color al pasar el ratón */
+}
+
 @media (min-width: 960px) {
   .portfolio-card {
     display: flex;
     width: 100%;
     max-width: 100%;
   }
-  /* Estilos para proyectos pares */
-.portfolio-card:nth-child(even) {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-/* Estilos para proyectos impares */
-.portfolio-card:nth-child(odd) {
-  display: flex;
-  flex-direction: row;
-}
-}
-.portfolio-card:hover .portfolio-card__img {
-  height: 300px;
-  transition: 1.2s;
-  overflow: hidden;
-  transition-delay: 0.1s;
-  white-space: normal;
-  border-radius: 50%; 
-  /* display: flex;
-  position: relative;
-  flex-direction: column;
-  box-shadow: 2px 4px 12pxrgba (0, 0, 0, 0.08);
-  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1); */
-}
-.portfolio-card__img {
-  display: flex;
-  transition: 1.2s;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  z-index: 9;
-  height: 0;
-  /* Hace que la imagen sea un círculo */
-}
-.portfolio-card__content {
-  padding: 32px;
-}
-
-.portfolio-card__title {
-  font-size: 24px;
-  margin: 0%;
-}
-.portfolio-card__text {
-  font-size: 16px;
-  margin: 0;
-  margin-top: 10px;
-}
-.portfolio-card__link {
-  font-size: 15px;
-  color: #b19287;
-  margin: 9px;
-  display: flex;
-  flex-direction: column-reverse;
-  text-decoration: none;
-}
-@media (min-width: 960px) {
   .portfolio-card__link {
     color: #b075fdd4;
   }
+  .portfolio-card__link:hover {
+    border-radius: 5px;
+    color: rgba(230, 195, 240, 0.952);
+    transition: all 550ms ease;
+  }
+  .portfolio-card__img {
+    display: flex;
+    transition: 1.2s;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    height: 0;
+    /* Hace que la imagen sea un círculo */
+  }
+  .portfolio-card:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .portfolio-card:nth-child(odd) {
+    display: flex;
+    flex-direction: row;
+  }
+  .portfolio-card:hover .portfolio-card__img {
+    height: 300px;
+    transition: 1.2s;
+    overflow: hidden;
+    transition-delay: 0.1s;
+    white-space: normal;
+    border-radius: 50%; 
+    /* display: flex;
+    position: relative;
+    flex-direction: column;
+    box-shadow: 2px 4px 12pxrgba (0, 0, 0, 0.08);
+    transition: all 0.3s cubic-bezier(0, 0, 0.5, 1); */
+  }
+  
+  /* Estilos para proyectos pares */
+
+
+
 }
 
-.portfolio-card__link:hover {
-  border-radius: 5px;
-  color: rgba(230, 195, 240, 0.952);
-  transition: all 550ms ease;
-}

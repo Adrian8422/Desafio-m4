@@ -15,7 +15,12 @@
 @media (min-width: 960px) {
   .form {
     background-color: transparent;
+    color:#999
   }
+}
+.form-cont{
+  background-color:#666
+  
 }
 .container-header-form {
   background: linear-gradient(
