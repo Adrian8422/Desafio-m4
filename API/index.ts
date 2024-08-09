@@ -46,6 +46,6 @@ app.get("*", (req, res) => {
   res.sendFile(pathResolve);
 });
 
-app.listen(port, () => {
+app.listen(3000, () => {
   console.log(`service in http://localhost:${port}`);
 });
