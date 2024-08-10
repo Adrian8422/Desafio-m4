@@ -115,6 +115,10 @@ body {
     border: solid 1px grey;
     border-radius: 17px;
   }
+  .presentacion__container:hover {
+    box-shadow: 29px 21px 61px rgba(255, 165, 0, 0.5); /* Ajusta el color y tamaño de la sombra */
+    transform: translateX(10px); /* Mueve el contenedor hacia la derecha */
+}
 }
 .p__container-title {
   margin: 0;

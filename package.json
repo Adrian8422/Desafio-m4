@@ -5,7 +5,7 @@
   "author": "Adrian Villegas <manbassman1996@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --watch ./API/index.ts --exec ts-node ./develop.ts",
+    "dev": "yarn build && nodemon --watch ./API/index.ts --exec ts-node ./develop.ts",
     "sync": "ts-node ./back-src/sync.ts",
     "build:front": "parcel build index.html",
     "build:back": "tsc",
