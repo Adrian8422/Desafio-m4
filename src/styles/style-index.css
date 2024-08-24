@@ -10,40 +10,82 @@ body {
   margin: 0 auto;
 }
 .welcome {
-  height: 681px;
-  background-image: url(../medias/welcome/3d-back.jpg);
-  background-position: 4%;
-  background-size: cover;
-  padding-top: 80px;
-  font-family: "Montserrat", sans-serif;
-  max-width: 1650px;
-  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(120deg, #3498db, #8e44ad);
+  background-size: 300% 300%;
+  animation: gradientAnimation 8s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .welcome__container-titles {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 153px 0;
   align-items: center;
-  color: whitesmoke;
-  text-shadow: -2px 3px 2px #040101;
+  color: #f0f0f0;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   text-align: center;
+  animation: fadeInUp 1s ease-in-out;
 }
 
 .welcome__title-one,
 .welcome__title-two {
   font-size: 48px;
-  transition: transform 0.3s ease-in-out;
+  margin: 0;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .welcome__title-one:hover,
 .welcome__title-two:hover {
   transform: translateY(-10px);
+  color: #ff6b6b;
 }
 
 .welcome__title-two {
   font-size: 32px;
+  margin-top: 10px;
+}
+
+.buttonCV {
+  margin-top: 30px;
+}
+
+.buttonCV__img {
+  width: 60px;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.buttonCV__img:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* Keyframes for animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 

@@ -7,35 +7,50 @@ body {
   padding: 0;
   background-color: #0d1117;
 }
+
 .header {
   width: 100%;
-  height: 100px;
-  height: 50px;
-  background-color: #1e1e1ffc;
-  flex-direction: row;
+  height: 60px;
+  background-color: rgba(30, 30, 31, 0.9);
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 17px;
-  display: flex;
+  padding: 10px 20px;
   position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
 }
+
+.header:hover {
+  background-color: rgba(30, 30, 31, 1);
+}
+
 .header__logo-home {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
+
 .header-name {
   font-family: "Orbitron", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   color: whitesmoke;
-  text-shadow: -3px 3px 3px #000000;
+  text-shadow: 0 3px 6px #000000;
+  margin: 0;
 }
 
 .header__container-link {
   display: none;
 }
+
 @media (min-width: 500px) {
   .header__container-link {
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 }
 
@@ -43,51 +58,49 @@ body {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-weight: bold;
-  margin-right: 29px;
   color: white;
-  padding: 6px;
-  font-weight: 400;
+  padding: 8px 12px;
+  transition: all 0.3s ease-in-out;
 }
-.header__container-link a:hover {
-  background-color: teal;
+
+.header__links:hover {
+  background-color: #008080;
   border-radius: 5px;
-  transition: all 550ms ease;
+  color: #ffffff;
 }
+
 #navMenu > span {
   display: block;
   width: 28px;
-  height: 2px;
+  height: 3px;
   border-radius: 9999px;
-  background-color: rgb(251, 251, 251);
+  background-color: #ffffff;
 }
+
 #navMenu > span:not(:last-child) {
-  margin-bottom: 7px;
-  filter: drop-shadow(2px 0px 1px #000);
+  margin-bottom: 5px;
 }
 
 #navMenu,
 #navMenu > span {
-  width: 28px;
   transition: all 0.4s ease-in-out;
   filter: drop-shadow(1px 1px 3px #000);
 }
 
 #navMenu.active {
-  transition-delay: 0.8s;
   transform: rotate(45deg);
 }
+
 #navMenu.active > span:nth-child(2) {
   width: 0;
 }
-#navMenu.active > span:nth-child(1),
-#navMenu.active > span:nth-child(3) {
-  transition-delay: 0.4s;
-}
+
 #navMenu.active > span:nth-child(1) {
-  transform: translateY(9px);
+  transform: translateY(8px);
 }
+
 #navMenu.active > span:nth-child(3) {
-  transform: translateY(-9px) rotate(90deg);
+  transform: translateY(-8px) rotate(90deg);
 }
 
 @media (min-width: 500px) {
@@ -95,92 +108,64 @@ body {
     display: none;
   }
 }
-.button-open-img {
-  height: 35px;
-  width: 30px;
-}
 
-/* //  HEADER VENTANA HAMBURGUESA */
 #header__ventana-burger {
   position: fixed;
-  text-align: center;
-  top: 52px;
+  top: 60px;
   right: -100%;
   width: 100%;
-
   z-index: 9;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background: #8af1ff;
+  background: #282828;
   transition: 0.5s;
-  border-radius: 22px;
-  box-shadow: 1px 3px 3px 3px black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  border-radius: 0 0 12px 12px;
 }
+
 #header__ventana-burger.active {
   right: 0;
   transition-delay: 0.1s;
 }
-@media (min-width: 500px) {
-  .header__ventana-burger {
-  }
-}
 
 .header__ventana-burger-content {
   width: 100%;
-  height: 548px;
-  background-color: #417670;
+  height: 100%;
+  background-color: #3b3b3b;
   flex-direction: column;
   align-items: center;
-  padding: 5px 21px;
+  padding: 20px 0;
   display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 8px;
   justify-content: center;
-  border-radius: 9px;
+  border-radius: 0 0 12px 12px;
 }
+
+.header__ventana-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__ventana-links a {
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #1e90ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.header__ventana-links a:hover {
+  background-color: #007acc;
+}
+
 @media (min-width: 500px) {
   .header__ventana-burger-content {
     display: none;
   }
 }
-.ventana__close {
-  width: 50px;
-  height: 50px;
-  background-color: transparent;
-  align-self: flex-end;
-  border: none;
-}
-
-.img-close {
-  height: 31px;
-  width: 30px;
-  color: black;
-}
-.header__ventana-links {
-  display: flex;
-  flex-direction: column;
-  padding: 70px;
-}
-.header__ventana-links a:hover {
-  background-color: rgb(2, 173, 173);
-  border-radius: 7px;
-  transition: all 500ms ease;
-}
-
-.link {
-  color: #000;
-  border-radius: 10px;
-  margin-bottom: 56px;
-  padding: 7px;
-  font-family: Montserrat, sans-serif;
-  font-size: 20px;
-  text-decoration: none;
-  box-shadow: 5px 6px 10px #312e2e78;
-  width: 180px;
-  background-color: cadetblue;
-}
-
-/* ////// LINKS DESKTOP  */

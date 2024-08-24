@@ -1,4 +1,4 @@
-20860
+20862
 114C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\yargs\build\lib\utils\process-argv.js133674588689800000 0
 106C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\valid-url\test\is_http_uri.js133674588684200000 0
 93C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\tmp\package.json133674588625400000 0
@@ -36,7 +36,7 @@
 114C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\firebase-tools\lib\management\apps.js133674588612850000 0
 103C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\htmlnano\docs\package.json133674588804450000 0
 133C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\marked-terminal\node_modules\type-fest\source\basic.d.ts133674588676430000 0
-68C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist133676606136249018 1
+68C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist133690123644353431 1
 126C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\rxjs\dist\cjs\internal\operators\multicast.js.map133674588648000000 0
 127C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\yaml\browser\dist\stringify\stringifyCollection.js133674588671900000 0
 112C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\firebase-tools\lib\deploy\functions133674589108544748 1
@@ -358,7 +358,7 @@
 111C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\underscore\cjs\templateSettings.js133661297080440000 0
 117C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\rxjs\dist\esm\internal\util\isPromise.js133674588648000000 0
 97C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\on-finished\index.js133660182632260000 0
-90C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\src\styles\style-index.css133676606032092595 0
+90C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\src\styles\style-index.css133677314095139814 0
 92C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\src\medias\footer\github.png133674588220284598 0
 120C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\path-scurry\node_modules\lru-cache\dist\mjs133674589104893129 1
 95C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\src\components\footer\index.css133674588220239407 0
@@ -5573,6 +5573,7 @@
 125C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\rxjs\dist\esm\internal\util\NotFoundError.js.map133674588648000000 0
 94C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\join-path\test.js133674588656220000 0
 104C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\underscore\cjs\functions.js133661297080440000 0
+87C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.7ac44d54.css133690123644248745 0
 104C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\markdown-it\lib\rules_block133674589104153543 1
 98C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\underscore\cjs\has.js133661297080440000 0
 128C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\rxjs\dist\cjs\internal\operators\timeoutWith.js.map133674588648000000 0
@@ -14979,7 +14980,7 @@
 134C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\google-gax\build\protos\google\monitoring\v3\uptime.proto133674588633000000 0
 108C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\caniuse-lite\data\regions\TL.js133674588819710000 0
 136C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\google-gax\build\protos\google\longrunning\operations.proto133674588633000000 0
-86C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\API\index.js133677304061792641 0
+86C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\API\index.js133690126451528652 0
 139C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\google-gax\build\protos\google\logging\type\log_severity.proto133674588633000000 0
 122C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\google-gax\build\protos\google\iam\v1\logging133674589123424780 1
 139C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\google-gax\build\protos\google\iam\v1\logging\audit_data.proto133674588633000000 0
@@ -20709,7 +20710,7 @@
 92C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\.bin\esgenerate133674589132113261 0
 88C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\nodeJS.a8fab1fe.png133676603522553165 0
 96C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\.bin\esgenerate.cmd133674589132113261 0
-84C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\develop.js133677304061802718 0
+84C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\develop.js133690126451528652 0
 93C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\.bin\esparse.cmd133674589132183330 0
 96C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\.bin\esvalidate.cmd133674589132198402 0
 90C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\node_modules\.bin\firebase133674589133161241 0
@@ -20801,6 +20802,7 @@
 91C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.6b2c294e.css.map133674588219743398 0
 91C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.753b3837.css.map133674588219758493 0
 91C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.7a0730c1.css.map133674588219768607 0
+91C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.7ac44d54.css.map133690123644328753 0
 87C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.7ccb6b1d.css133674588219768607 0
 87C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.7e1921ae.css133674588219778589 0
 87C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.8be4c75b.css133674588219788595 0
@@ -20837,7 +20839,7 @@
 91C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.fda28eb2.css.map133674588219989009 0
 87C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.fe722a4e.css133674588219999007 0
 91C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.fe722a4e.css.map133674588219999007 0
-79C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.html133676606136189017 0
+79C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\index.html133690123644248745 0
 92C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\javascript.cfce2e3b.png133674588220009009 0
 94C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\javascriptjs.2ee1a4a9.png133676603522553165 0
 89C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\dist\mongodb.2976bbc9.svg133676603520483167 0
@@ -20855,7 +20857,7 @@
 77C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\src133676603489657062 1
 88C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\src\components133676603489657062 1
 99C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\src\components\buttonComp133676603489657062 1
-108C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\src\components\buttonComp\index.js133677304061832795 0
-87C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\API\mailer.js133677304061717495 0
+108C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\src\components\buttonComp\index.js133690126451528652 0
+87C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\back-dist\API\mailer.js133690126451430740 0
 77C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\API\mailer.ts133674588219452690 0
 108C:\Users\gordo\OneDrive\Escritorio\personal-projects\Desafio-m4\.github\workflows\firebase-hosting-merge.yml133674588219437488 0
