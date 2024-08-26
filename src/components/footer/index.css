@@ -1,59 +1,108 @@
+/* Footer */
 .footer {
-  background-color: #2c2c2c;
-  height: 498px;
+  position: relative;
+  height: 500px; /* Tamaño reducido */
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; /* Centrar el contenido verticalmente */
+
+  padding: 20px; /* Padding elegante */
+  overflow: hidden; /* Para esconder elementos que se desbordan */
 }
+
+/* Estilo para la luna */
+.moon {
+  display: none;
+  position: absolute;
+  bottom: 40%; /* Mover la luna más abajo */
+  left: 25%; /* Centrar horizontalmente */
+  width: 150px; /* Tamaño aumentado */
+  height: 150px; /* Tamaño aumentado */
+  background: radial-gradient(circle, #f0f0f0 50%, #c0c0c0 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.8); /* Efecto de brillo aumentado */
+  filter: blur(4px);
+  transform: translateX(-50%); /* Ajustar el centrado */
+  z-index: 0; /* Detrás del contenido */
+  animation: glow 2s infinite alternate; /* Animación de brillo */
+}
+
+@media (min-width: 729px) {
+  .moon{
+    display: flex;
+  }
+}
+
+
+
+/* Animación de brillo */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 80px rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* Título del footer */
+.footer__name {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 32px; /* Tamaño de fuente reducido */
+  color: #ffffff;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  z-index: 1; /* Asegura que esté encima de la luna */
+  text-align: center;
+  margin: 0;
+}
+
+/* Contenedor de enlaces */
+.footer__container-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Espaciado reducido */
+  z-index: 1;
+}
+
+/* Enlaces */
+.footer__link {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px; /* Tamaño de fuente reducido */
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px; /* Padding reducido */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto de hover para los enlaces */
+.footer__link:hover {
+  color: #3399ff;
+  transform: translateY(-2px); /* Movimiento más sutil */
+}
+
+/* Media Query para pantallas más grandes */
 @media (min-width: 729px) {
   .footer {
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1650px;
+    max-width: 1200px; /* Tamaño máximo ajustado */
     margin: 0 auto;
-    height: 357px;
+    height: 500px; /* Ajustado para pantallas más grandes */
+    padding: 20px;
   }
-}
 
-.footer__name {
-  padding: 101px 0 25px 0;
-  margin: 0;
-  display: flex;
-  font-family: "Orbitron", sans-serif;
-  font-weight: 500;
-  font-size: 48px;
-  color: whitesmoke;
-  text-shadow: -3px 4px 2px black;
-}
-@media (min-width: 729px) {
   .footer__name {
-    padding: 45px;
+    font-size: 36px;
+    padding: 0;
   }
-}
 
-.footer__container-links {
-  height: 199px;
-  width: 185px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media (min-width: 729px) {
   .footer__container-links {
-    padding: 21px;
+    gap: 15px;
   }
-}
-
-.footer__link {
-  display: flex;
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  align-items: center;
-  padding: 19px 0;
-
-  text-decoration: none;
-  color: whitesmoke;
 }

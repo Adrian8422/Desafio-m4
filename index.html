@@ -56,19 +56,25 @@
     <div class="header-cont"></div>
 
     <section class="welcome">
-      <div class="welcome-content"></div>
-    </section>
-    <template id="welcome-template">
-      <div class="welcome__container-titles">
-        <h1 class="welcome__title-one">Hola</h1>
-        <h2 class="welcome__title-two">Soy Adri</h2>
-        <div class="buttonCV">
-          <a href="./src/medias/pdf/(ENG)Adrián Villegas SOFTWARE DEVELOPER.pdf" download="Curriculum Vitae Adrián Villegas">
-            <img class="buttonCV__img" src="./src/medias/pdf/curriculum.png" alt="Curriculum">
-          </a>
-        </div>
+      <div class="welcome-content">
+        <div class="planet-background"></div>
+      
+        <div class="clouds"></div>
       </div>
-    </template>
+      <template id="welcome-template">
+        <div class="welcome__container-titles">
+          <h1 class="welcome__title-one">Hola</h1>
+          <h2 class="welcome__title-two">Soy Adri</h2>
+          <div class="buttonCV">
+            <a href="./src/medias/pdf/(ENG)Adrián Villegas SOFTWARE DEVELOPER.pdf" download="Curriculum Vitae Adrián Villegas">
+              <img class="buttonCV__img" src="./src/medias/pdf/curriculum.png" alt="Curriculum">
+            </a>
+          </div>
+        </div>
+      </template>
+    </section>
+    
+    
     
     <section class="presentacion"></section>
 
@@ -113,6 +119,12 @@
     </template>
     <section id="portfolio" class="portfolio">
       <div class="portfolio__presentation">
+        <div class="rayo-led-container">
+          <div class="rayo-led"></div>
+          <div class="rayo-led"></div>
+          <div class="rayo-led"></div>
+          <div class="rayo-led"></div>
+        </div>
         <h2 class="p__present-title">Portfolio</h2>
       </div>
 
@@ -136,33 +148,76 @@
       </div>
     </template>
     <section class="section__tecnologias"> 
-      <h2 style="font-size: 32px;
-      border-bottom: 3px solid #7b7b7b45;">Tecnologías</h2>
-      
-      <table style="padding: 25px;" >
+      <h2 class="section-title">Tecnologías</h2>
+      <table class="tech-table">
         <tbody>
-          <tr class="tr"> 
-            <td class="card-table"><h3>ReactJS</h3><img src="./src/medias/tecnologias/reactjs.png" alt=""> </td>
-            <td class="card-table"><h3>Javascript</h3><img src="./src/medias/tecnologias/javascriptjs.png" alt=""></td>
-            <td class="card-table"><h3>Webpack</h3><img src="./src/medias/tecnologias/webpack.png" alt=""></td>
-            <td class="card-table"><h3>PostgreSQL</h3><img src="./src/medias/tecnologias/postgreSQL.png" alt=""></td>
-            <td class="card-table"><h3>MongoDB</h3><img width="90px" height="90px" src="./src/medias/tecnologias/mongodb.svg" alt=""></td>
-            <td class="card-table"><h3>Firebase</h3><img src="./src/medias/tecnologias/firebase.png" alt=""></td>
-            <td class="card-table"><h3>Heroku</h3><img src="./src/medias/tecnologias/heroku.png" alt=""></td>
-        <td class="card-table"><h3>NodeJS</h3><img src="./src/medias/tecnologias/nodeJS.png" alt=""></td>
-        <td class="card-table"><h3>Typescript</h3><img src="./src/medias/tecnologias/typescript.png" alt=""></td>
-        <td class="card-table"><h3>Html</h3><img src="./src/medias/tecnologias/html.png" alt=""></td>
-        <td class="card-table"><h3>Css</h3><img src="./src/medias/tecnologias/css.png" alt=""></td>
-        <td class="card-table"><h3>Github</h3><img src="./src/medias/tecnologias/GitHubIcon.png" alt=""></td>
-        <td class="card-table"><h3>Next.JS</h3> <img src="./src/medias/tecnologias/nextjs.png" alt=""></td>
-        <td class="card-table"><h3>GraphQL</h3> <img width="90px" height="90px" src="./src/medias/tecnologias/graphql.svg" alt=""></td>
-        <td class="card-table"><h3>Docker</h3> <img  width="90px" height="90px" src="./src/medias/tecnologias/docker.svg" alt=""></td>
-      </tr>
-    </tbody>
+          <tr class="tech-row"> 
+            <td class="card-table">
+              <h3>ReactJS</h3>
+              <img src="./src/medias/tecnologias/reactjs.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Javascript</h3>
+              <img src="./src/medias/tecnologias/javascriptjs.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Webpack</h3>
+              <img src="./src/medias/tecnologias/webpack.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>PostgreSQL</h3>
+              <img src="./src/medias/tecnologias/postgreSQL.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>MongoDB</h3>
+              <img width="90px" height="90px" src="./src/medias/tecnologias/mongodb.svg" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Firebase</h3>
+              <img src="./src/medias/tecnologias/firebase.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Heroku</h3>
+              <img src="./src/medias/tecnologias/heroku.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>NodeJS</h3>
+              <img src="./src/medias/tecnologias/nodeJS.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Typescript</h3>
+              <img src="./src/medias/tecnologias/typescript.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Html</h3>
+              <img src="./src/medias/tecnologias/html.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Css</h3>
+              <img src="./src/medias/tecnologias/css.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Github</h3>
+              <img src="./src/medias/tecnologias/GitHubIcon.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Next.JS</h3>
+              <img src="./src/medias/tecnologias/nextjs.png" alt="">
+            </td>
+            <td class="card-table">
+              <h3>GraphQL</h3>
+              <img width="90px" height="90px" src="./src/medias/tecnologias/graphql.svg" alt="">
+            </td>
+            <td class="card-table">
+              <h3>Docker</h3>
+              <img width="90px" height="90px" src="./src/medias/tecnologias/docker.svg" alt="">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     
-  </table>
-  
-</section>
+    
     <div class="form-cont"></div>
 
     <div id="contacto" class="footer-cont"></div>

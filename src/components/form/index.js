@@ -1,29 +1,30 @@
 function formAdd(el) {
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
-  <section class="form">
-  <h3 class="form__title">Escribime</h3>
-  <form  class="form__content">
-   <div class="form__content-label">
-     <label for="name"><h3 class="form__title-label" >Nombre</h2></label>
-     <input class="form__content-input" name="nombre" type="text">
-   </div>
-   <div class="form__label">
-     <label for="email"><h3 class="form__title-label">Email</h3></label>
-     <input class="form__content-input" name="email" type="email">
-   </div>
-   <div class="form__label">
-     <label for="mensaje"><h3 class="form__title-label">Mensaje</h3>
-     <textarea name="mensaje"  class="textarea"  id="mensaje"></textarea>
-    </div>
-    <div class="form__content-button-container">
-      <button class="form__content-label-button-enviar">Enviar</button>
-    </div>
-   </form>
+  <section class="form-container">
+    <h3 class="form__title">Escríbeme</h3>
+    <form class="form__content">
+      <div class="form__content-label">
+        <label for="name"><h3 class="form__title-label">Nombre</h3></label>
+        <input class="form__content-input" name="nombre" type="text" required>
+      </div>
+      <div class="form__content-label">
+        <label for="email"><h3 class="form__title-label">Email</h3></label>
+        <input class="form__content-input" name="email" type="email" required>
+      </div>
+      <div class="form__content-label">
+        <label for="mensaje"><h3 class="form__title-label">Mensaje</h3></label>
+        <textarea name="mensaje" class="textarea" id="mensaje" required></textarea>
+      </div>
+      <div class="form__content-button-container">
+        <button class="form__content-button">Enviar</button>
+      </div>
+    </form>
   </section>`;
 
   el.appendChild(componentEl);
 }
+
 
 // action="https://formsubmit.co/manbassman1996@gmail.com" method="POST"
 function enviarForm() {
