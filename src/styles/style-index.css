@@ -102,6 +102,16 @@ body {
   font-size: 32px;
   margin-top: 10px;
 }
+@media (min-width:768px ){
+  .welcome__title-one{
+    font-size: 58px;
+
+  }
+  .welcome__title-two{
+    font-size: 58px;
+  }
+
+}
 
 /* Botón de CV */
 .buttonCV {
